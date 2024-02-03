@@ -190,7 +190,7 @@ a, button {
 
 .navbar-brand img {
     transition: all 0.5s ease;
-    width:190px;
+    width:100%;
 }
 
 

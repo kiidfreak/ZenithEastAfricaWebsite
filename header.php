@@ -74,7 +74,7 @@
                               <i class="fas fa-phone"></i>
                               <div class="stm-iconbox__info">
                                  <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    +254--------				
+                                 info@zenitheastafrica.com				
                                  </div>
                                  <div class="stm-iconbox__description">
                                     Talk to us				
@@ -101,7 +101,7 @@
             <div class="header-inner" id="header-inner">
                <div class="container">
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
-                     <a class="navbar-brand" href="index.php"><img src="img/logo.svg" class="img-fluid"/></a>
+                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest.png" class="img-fluid"/></a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
                      <span></span>
@@ -113,7 +113,7 @@
                               <a class="nav-link " href="index.php">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="aboutus.php">Aboutus</a>
+                              <a class="nav-link" href="aboutus.php">About us</a>
                            </li>
                            <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>

@@ -84,7 +84,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Non-Profit Organisations</h4>
-                  <P>We consider all the drivers of change – from the ground up and we’ll motivate and support you to make the change.</p>
+                  <P>We consider all the drivers of change from the ground up and we’ll motivate and support you to make the change.</p>
                </div>
             </div>
          </div>
@@ -262,7 +262,7 @@
                      <div class="success_items">
                         <div class="user-profile-test">
                            <a href="#"><img src="img/testimonial/2.jpg" alt="Success"
-                              class="user_img img-fluid"></a>
+                              class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
                            <div class="info">
@@ -282,7 +282,7 @@
                      <div class="success_items">
                         <div class="user-profile-test">
                            <a href="#">  <img src="img/testimonial/1.jpg" alt="Success"
-                              class="user_img img-fluid"></a>
+                              class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
                            <div class="info">
@@ -303,7 +303,7 @@
                      <div class="success_items">
                         <div class="user-profile-test">
                            <a href="#"><img src="img/testimonial/3.jpg" alt="Success"
-                              class="user_img img-fluid"></a>
+                              class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
                            <div class="info">
@@ -323,7 +323,7 @@
                      <div class="success_items">
                         <div class="user-profile-test">
                            <a href="#">  <img src="img/testimonial/4.jpg" alt="Success" 
-                              class="user_img img-fluid"></a>
+                              class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
                            <div class="info">
@@ -401,29 +401,29 @@
                <div class="slick-slider client-slider">
 
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/a.png" class="img-fluid" alt="Imageteam">
+                     <img src="img/client/a.png" class="img-fluid1" alt="Imageteam">
                   </div>
                   <div class="item wow slideInLeft" data-wow-delay=".3s">
-                     <img src="img/client/b.png" class="img-fluid" alt="Imageteam">
+                     <img src="img/client/b.png" class="img-fluid1" alt="Imageteam">
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".5s">
-                        <img src="img/client/c.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/c.png" class="img-fluid1" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".9s">
-                        <img src="img/client/d.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/d.png" class="img-fluid1" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".10s">
-                        <img src="img/client/e.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/e.png" class="img-fluid1" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/f.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/f.png" class="img-fluid1" alt="Imageteam">
                      </div>
                </div>
 

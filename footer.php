@@ -6,7 +6,7 @@
                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="footer_logo">
                      <a href="index.php" class="mb-3 d-flex">
-                     <img src="img/logo.svg" alt="" width="170px;">
+                     <img src="img/ZenithLogo.png" alt="" width="170px;">
                      </a>
                      <p>Zenith collaboratively works together to Ignite Change through Disruptive Thinking, Strategic Planning and Execution for Positive Impact.
                      </p>
