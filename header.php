@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
       <title>Zenith</title>
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <!----css3---->
       <link rel="stylesheet" href="css/custom.css">
       <link rel="stylesheet" href="font/flaticon.css">
@@ -33,6 +33,8 @@
       <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
       <link rel="manifest" href="img/favicons/site.webmanifest">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <!-- fontawesome js -->
       <script src="https://kit.fontawesome.com/0c3d8da444.js" crossorigin="anonymous"></script>
    </head>
@@ -100,6 +102,111 @@
          <div class="navigation" id="navigation">
             <div class="header-inner" id="header-inner">
                <div class="container">
+
+
+
+<style>
+    /* Style for the default state of the nested dropdown menu */
+    .nav-item.dropdown .dropdown-menu.small-menu {
+        display: none; /* Hide the nested dropdown menu by default */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 0; /* Adjust the top margin if needed */
+        border-radius: 0; /* Optionally remove border-radius for a cleaner look */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    }
+
+    /* Show the nested dropdown menu on hover for the "Business Design & Brand Strategy" dropdown */
+    .nav-item.dropdown:hover .dropdown-menu.small-menu {
+        display: block;
+    }
+
+    /* Style for the nested dropdown items */
+    .nav-item.dropdown .dropdown-menu.small-menu a {
+        padding: 8px 15px; /* Adjust padding for nested dropdown items */
+        white-space: nowrap; /* Prevent line breaks in menu items */
+        color: #fd9b28;
+        font-family: Open Sans, Arial;
+        font-weight: 500;
+        font-size: 13px;
+        background: #ffffff;
+        border-bottom: 1px groove rgba(0, 0, 0, .1);
+        box-shadow: 5px 5px 2px rgb(23 36 52 / 5%);
+        transition: 0.5s ease;
+        word-wrap: break-word;
+        
+    }
+
+    .dropdown-item {
+      color: #fd9b28;
+      text-decoration: none;
+      font-weight: 400;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .dropdown-item:active {
+    color: #fd9b28;
+    text-decoration: none;
+    background-color: #fd9b28;
+}
+
+    .dropdown-item:hover {
+    color: #fd9b28;
+    text-decoration: none;
+    background-color: #fd9b28;
+}
+/* Style for the active state of dropdown items */
+.nav-item.dropdown .dropdown-menu.small-menu a:hover {
+    background-color: #FD9B28 !important; /* Update to the desired hover color */
+}
+
+
+    /* Style for the dropdown-submenu */
+    .nav-item.dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: 0;
+        border-radius: 1;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        word-wrap: break-word;
+    }
+
+.client-slider {
+  width: 100%; /* Adjust as needed */
+  height: 300px; /* Set a fixed height for the container, adjust as needed */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-slider img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* This property maintains the aspect ratio and contains the image within the container */
+  padding: 10px; /* Adjust the padding value as needed */
+  box-sizing: border-box; /* Include padding in the total width and height of the image */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the opacity (0.5) as needed */
+  pointer-events: none; /* Allow interaction with the images beneath the overlay */
+}
+
+
+
+</style>
+
+
+
+
+
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
                      <a class="navbar-brand" href="index.php"><img src="img/ZenithTest.png" class="img-fluid"/></a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,43 +220,53 @@
                               <a class="nav-link " href="index.php">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="aboutus.php">About us</a>
+                              <a class="nav-link" href="/#about-us">About us</a>
                            </li>
-                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-                              <ul class="dropdown-menu small-menu">
-                                 <a href="start-up-services.php">Start-Up Services</a>
-                                 <a href="business-process-designredesign.php">Business Process Design/Redesign</a>
-                                 <a href="business-process-management.php">Business Process Management</a>
-                                 <a href="business-operation-support.php">Business Operation Support</a>
-                                 <a href="legal-support.php">Legal Support</a>
-                                 <a href="ecfo.html">ECFO</a>
-                                 <a href="management-consulting.php">Management Consulting</a>
-                                 <a href="business-closerwrapping-up.php">Business Closer/Wrapping Up</a>
+
+                           <li class="nav-item dropdown" id="servicesDropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Services</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown-submenu">
+                                       <a class="nav-link dropdown-toggle" href="#">Business Design & Brand Strategy</a>
+                                       <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" >Brand Development</a></li>
+                                          <li><a class="dropdown-item" >Brand Purpose Positioning + Expressions</a></li>
+                                          <li><a style="white-space:wrap" class="dropdown-item" >Growth, Brand + Brand/Customer Experience Innovation</a></li>
+                                       </ul>
+                                 </li>
+                                 <li class="nav-item dropdown-submenu">
+                                       <a class="nav-link dropdown-toggle" href="#">Integrated Marketing Communication</a>
+                                       <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" >Advertising</a></li>
+                                          <li><a class="dropdown-item" >Public Relations</a></li>
+                                          <li><a class="dropdown-item" >Digital Marketing</a></li>
+                                          <li><a class="dropdown-item" >Experiential and Event Management</a></li>
+                                          <li><a class="dropdown-item" >Production</a></li>
+                                       </ul>
+                                 </li>
+                                 <li class="nav-item dropdown-submenu">
+                                       <a class="nav-link dropdown-toggle" href="#">Specialist Services</a>
+                                       <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" >Investment Authority</a></li>
+                                          <li><a class="dropdown-item" >Development Communication</a></li>
+                                          <li><a class="dropdown-item" >Sustainability Communication and ESG Reporting</a></li>
+                                       </ul>
+                                 </li>
                               </ul>
                            </li>
+
+
                            <li class="nav-item">
-                              <a class="nav-link" href="our-team.php">Our Team</a>
+                              <a class="nav-link" href="/#team">Our Team</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="#">clients</a>
+                              <a class="nav-link" href="/#our-clients">clients</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="articles.php">Resource</a>
-                           </li>
-                           <li class="nav-item dropdown">
-                              <a class="nav-link" href="#" data-toggle="dropdown">Global Partner</a>
-                              <ul class="dropdown-menu small-menu">
-                                 <a href="usa.php">USA</a>
-                                 <a href="india.php">India</a>
-                                 <a href="spain.php">Spain</a>
-                                 <a href="cyprus.php">Cyprus</a>
-                                 <a href="#">Russia</a>
-                                 <a href="#">S. Korea</a>
-                              </ul>
+                              <a class="nav-link" href="/#blog">Resource</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="contactus.php">Contactus</a>
+                              <a class="nav-link" href="/contact.php">Contact Us</a>
                            </li>
                         </ul>
                      </div>

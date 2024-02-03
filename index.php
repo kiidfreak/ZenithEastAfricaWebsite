@@ -1,4 +1,16 @@
 <?php include("header.php");?>
+
+   <style type="text/css">
+      .img-fluid1 {
+      max-width: 100%;
+      height: auto
+   }
+   .img-fluid {
+      max-width: 100%;
+      height: 60px;
+   }
+   </style>
+
 <div class="slider-section">
    <!-- revolution slider -->
    <section class="no-top no-bottom" aria-label="section-slider">
@@ -6,27 +18,6 @@
       <div class="fullwidthbanner-container">
          <div id="revolution-slider-half">
             <ul>
-               <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
-                  <!--  BACKGROUND IMAGE -->
-                  <img src="img/slider/slider1.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
-                  <div class="tp-caption slide-big-heading sft"
-                     data-x="center"
-                     data-y="160"
-                     data-speed="800"
-                     data-start="400"
-                     data-easing="easeInOutExpo"
-                     data-endspeed="450">
-                     <span style="color:#fd9b28;"> STRATEGY</span> EXECUTION <span style="color:#fd9b28;">OUTCOMES </span>
-                  </div>
-                  <div class="tp-caption btn-slider sfb"
-                     data-x="center"
-                     data-y="300"
-                     data-speed="400"
-                     data-start="800"
-                     data-easing="easeInOutExpo">
-                     <span class="shine"></span><a href="#service what-bg" >More Detail</a>
-                  </div>
-               </li>
                <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                   <!--  BACKGROUND IMAGE -->
                   <img src="img/slider/slider2.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
@@ -45,7 +36,28 @@
                      data-speed="400"
                      data-start="800"
                      data-easing="easeInOutExpo">
-                     <span class="shine"></span><a href="#service what-bg">More Detail</a>
+                     <span class="shine"></span><a href="#services" >More Detail</a>
+                  </div>
+               </li>
+               <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
+                  <!--  BACKGROUND IMAGE -->
+                  <img src="img/slider/slider1.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                  <div class="tp-caption slide-big-heading sft"
+                     data-x="center"
+                     data-y="160"
+                     data-speed="800"
+                     data-start="400"
+                     data-easing="easeInOutExpo"
+                     data-endspeed="450">
+                     <span style="color:#fd9b28;"> STRATEGY</span> EXECUTION <span style="color:#fd9b28;">OUTCOMES </span>
+                  </div>
+                  <div class="tp-caption btn-slider sfb"
+                     data-x="center"
+                     data-y="300"
+                     data-speed="400"
+                     data-start="800"
+                     data-easing="easeInOutExpo">
+                     <span class="shine"></span><a href="#services">More Detail</a>
                   </div>
                </li>
             </ul>
@@ -56,6 +68,8 @@
    </section>
    <!-- revolution slider end -->
 </div>
+
+<div id="services">
 <section class="service what-bg">
    <div class="container">
       <div class="row">
@@ -135,6 +149,9 @@
       </div>
    </div>
 </section>
+</div>
+
+
 <div class="fun-facts pt-70 pb-100">
    <div class="container">
       <div class="row d-flex justify-content-center">
@@ -181,9 +198,13 @@
       </div>
    </div>
 </div>
+   <div id="about-us">
 <section class="about-faq sec-padd py-5">
+
    <div class="container">
       <div class="section-title text-center mb-5">
+         <br/>
+         <br/>
          <h2>about us &amp; faq's</h2>
       </div>
       <div class="row">
@@ -245,6 +266,10 @@
       </div>
    </div>
 </section>
+</div>
+<div id=team>
+   <br/>
+   <br/>
 <section class="achivement-bg">
    <div class="container">
       <div class="row">
@@ -261,7 +286,7 @@
                   <div class="item text-white">
                      <div class="success_items">
                         <div class="user-profile-test">
-                           <a href="#"><img src="img/testimonial/2.jpg" alt="Success"
+                           <a href="#"><img src="img/testimonial/team1.webp" alt="Success"
                               class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
@@ -281,7 +306,7 @@
                   <div class="item text-white">
                      <div class="success_items">
                         <div class="user-profile-test">
-                           <a href="#">  <img src="img/testimonial/1.jpg" alt="Success"
+                           <a href="#">  <img src="img/testimonial/team1.webp" alt="Success"
                               class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
@@ -302,7 +327,7 @@
                   <div class="item text-white">
                      <div class="success_items">
                         <div class="user-profile-test">
-                           <a href="#"><img src="img/testimonial/3.jpg" alt="Success"
+                           <a href="#"><img src="img/testimonial/team1.webp" alt="Success"
                               class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
@@ -322,7 +347,7 @@
                   <div class="item text-white">
                      <div class="success_items">
                         <div class="user-profile-test">
-                           <a href="#">  <img src="img/testimonial/4.jpg" alt="Success" 
+                           <a href="#">  <img src="img/testimonial/team1.webp" alt="Success" 
                               class="user_img img-fluid1"></a>
                         </div>
                         <div class="text-md-left text-center">
@@ -344,11 +369,18 @@
    </div>
 </section>
 
-<div class="about-info sec-padd text-center mb-5">
-   <div class="section-title">
-      <h2>key assignments</h2>
-   </div>
 </div>
+<div id=our-clients>
+      <br>
+      <br>
+      <br>
+      <br>
+   <div class="about-info sec-padd text-center mb-5">
+      <div class="section-title">
+         <h2>key assignments</h2>
+      </div>
+   </div>
+
 
 <!-- <section class="client-section">
    <div class="container">
@@ -358,38 +390,40 @@
                <div class="slick-slider client-slider">
                   <div class="wow-outer">
                      <div class="item wow slideInLeft"  data-wow-delay=".1s">
-                        <img src="img/client/a.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/1.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft"  data-wow-delay=".3s">
-                        <img src="img/client/b.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/2.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".5s">
-                        <img src="img/client/c.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/3.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".9s">
-                        <img src="img/client/d.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/5.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".10s">
-                        <img src="img/client/e.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/6.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/f.png" class="img-fluid" alt="Imageteam">
+                        <img src="img/client/7.png" class="img-fluid" alt="Imageteam">
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
+      <br>
+   <br>
    </div>
 </section> -->
 
@@ -404,33 +438,88 @@
                      <img src="img/client/a.png" class="img-fluid1" alt="Imageteam">
                   </div>
                   <div class="item wow slideInLeft" data-wow-delay=".3s">
-                     <img src="img/client/b.png" class="img-fluid1" alt="Imageteam">
+                     <img src="img/client/b.png" class="img-fluid1" alt="Imageteam" style="padding-top: 32px;">
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".5s">
-                        <img src="img/client/c.png" class="img-fluid1" alt="Imageteam">
+                        <img src="img/client/c.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".9s">
-                        <img src="img/client/d.png" class="img-fluid1" alt="Imageteam">
+                        <img src="img/client/d.png" class="img-fluid1" alt="Imageteam" style="padding-top: 8px;">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".10s">
-                        <img src="img/client/e.png" class="img-fluid1" alt="Imageteam">
+                        <img src="img/client/e.png" class="img-fluid1" alt="Imageteam" style="padding-top: 7px;">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/f.png" class="img-fluid1" alt="Imageteam">
+                        <img src="img/client/f.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
                      </div>
-               </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/g.png" class="img-fluid1" alt="Imageteam" style="padding-top: 25px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/h.jpg" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/j.png" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/k.jpeg" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/l.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/m.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/n.jpg" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/o.png" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/p.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/q.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+
 
             </div>
          </div>
       </div>
    </div>
+   <br>
+   <br>
+</div>
+</div>
 </section>
 
 <script>
@@ -469,6 +558,9 @@
    </div>
 </section>
 
+<div id="blog">
+   <br>
+   <br>
 <section class="blog">
  <div class="containerwrap">
    
@@ -545,4 +637,5 @@
    </div>
  </div>
 </section>
+</div>
 <?php include("footer.php");?>

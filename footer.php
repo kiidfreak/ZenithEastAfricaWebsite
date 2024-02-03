@@ -33,22 +33,16 @@
                      <div class="menu-extra-links-container">
                         <ul id="menu-extra-links" class="menu">
                            <li class="menu-item ">
-                              <a href="#">About</a>
+                              <a href="/#about-us">About</a>
                            </li>
                            <li  class="menu-item">
-                              <a href="#">Contacts</a>
-                           </li>
-                           <li  class="menu-item">
-                              <a href="#">Testimonials</a>
+                           <a href="/#blog">Blog</a>
                            </li>
                            <li class="menu-item">
-                              <a href="#">Services</a>
-                           </li>
-                           <li class="menu-item">
-                              <a href="#">Our team</a>
+                              <a href="/#team">Our team</a>
                            </li>
                            <li  class="menu-item">
-                              <a href="#">Our approach</a>
+                              <a href="/contact.php">Contact Us</a>
                            </li>
                         </ul>
                      </div>
@@ -60,10 +54,13 @@
                      <form class="" method="post">
                         <div class="mc4wp-form-fields">
                            <div class="input-group mb-3">
+                             <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
+                              <input type="hidden" name="_next" value="Zenith - Promotional Emails">
                               <input type="email" class="form-control" placeholder="Enter your email" required="">
                               <span class="input-group-btn">
                               <button class="btn" title="submit" type=""><i class="far fa-envelope"></i></button>
                               </span>
+                              </form>
                            </div>
                            <p>Get latest updates about Zenith</p>
                         </div>
@@ -101,10 +98,10 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
@@ -112,6 +109,69 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+
+<script>
+/**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+  </script>
+
+<script>
+    $(document).ready(function () {
+        // Hover event for top-level dropdowns
+        $(".nav-item.dropdown").mouseenter(function () {
+            if (!$(this).hasClass('show')) {
+                $(this).addClass("show");
+                $(this).find('.dropdown-menu').first().addClass("show");
+            }
+        });
+
+        $(".nav-item.dropdown").mouseleave(function () {
+            if ($(this).hasClass('show')) {
+                $(this).removeClass("show");
+                $(this).find('.dropdown-menu').removeClass("show");
+            }
+        });
+
+        // Hover event for sub-dropdowns
+        $(".nav-item.dropdown-submenu").mouseenter(function () {
+            $(this).parent('.nav-item.dropdown').addClass("show");
+            $(this).find('.dropdown-menu').addClass("show");
+        });
+
+        $(".nav-item.dropdown-submenu").mouseleave(function () {
+            $(this).parent('.nav-item.dropdown').removeClass("show");
+            $(this).find('.dropdown-menu').removeClass("show");
+        });
+    });
+</script>
+
+
+
+
 <script>
    $(document).ready(function($) {
         var $element = $('.counter');
@@ -172,8 +232,8 @@
      slidesToShow:6,
      dots:false,
      arrows: true,
-     autoplay:false,
-     autoplaySpeed:3000,
+     autoplay:true,
+     autoplaySpeed:2000,
      prevArrow: '<i class="fas fa-chevron-left prev"></i>',
      nextArrow: '<i class="fas fa-chevron-right next"></i>',
      swipe: true,
@@ -183,7 +243,7 @@
          settings: {
            slidesToShow:4,
            slidesToScroll: 1,
-           // centerMode: true,
+           centerMode: true,
          }
        }, {
          breakpoint: 800,
