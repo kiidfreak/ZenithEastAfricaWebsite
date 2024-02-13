@@ -20,7 +20,7 @@
             <ul>
                <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                   <!--  BACKGROUND IMAGE -->
-                  <img src="img/slider/slider2.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                  <img src="img/slider/slider4.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
                   <div class="tp-caption slide-big-heading sft"
                      data-x="center"
                      data-y="160"
@@ -41,7 +41,7 @@
                </li>
                <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                   <!--  BACKGROUND IMAGE -->
-                  <img src="img/slider/slider1.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                  <img src="img/slider/slider3.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
                   <div class="tp-caption slide-big-heading sft"
                      data-x="center"
                      data-y="160"
