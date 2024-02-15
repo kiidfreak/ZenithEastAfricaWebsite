@@ -20,45 +20,87 @@
             <ul>
                <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                   <!--  BACKGROUND IMAGE -->
-                  <img src="img/slider/slider4.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
-                  <div class="tp-caption slide-big-heading sft"
-                     data-x="center"
-                     data-y="160"
-                     data-speed="800"
-                     data-start="400"
-                     data-easing="easeInOutExpo"
-                     data-endspeed="450">
-                     <span style="color:#fd9b28;"> STRATEGY</span> EXECUTION <span style="color:#fd9b28;">OUTCOMES </span>
-                  </div>
-                  <div class="tp-caption btn-slider sfb"
-                     data-x="center"
-                     data-y="300"
-                     data-speed="400"
-                     data-start="800"
-                     data-easing="easeInOutExpo">
-                     <span class="shine"></span><a href="#services" >More Detail</a>
-                  </div>
-               </li>
-               <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
-                  <!--  BACKGROUND IMAGE -->
-                  <img src="img/slider/slider3.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
-                  <div class="tp-caption slide-big-heading sft"
-                     data-x="center"
-                     data-y="160"
-                     data-speed="800"
-                     data-start="400"
-                     data-easing="easeInOutExpo"
-                     data-endspeed="450">
-                     <span style="color:#fd9b28;"> STRATEGY</span> EXECUTION <span style="color:#fd9b28;">OUTCOMES </span>
-                  </div>
-                  <div class="tp-caption btn-slider sfb"
-                     data-x="center"
-                     data-y="300"
-                     data-speed="400"
-                     data-start="800"
-                     data-easing="easeInOutExpo">
-                     <span class="shine"></span><a href="#services">More Detail</a>
-                  </div>
+                     <img src="img/slider/slider4.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+
+                     <div class="tp-caption slide-big-heading sft" 
+                              data-x="50%" 
+                              data-y="130" 
+                              data-speed="800" 
+                              data-start="400" 
+                              data-easing="easeInOutExpo" 
+                              data-endspeed="450"
+                              style="text-align: center; display: flex; align-items: center; justify-content: center; padding-left:19%">
+                           <span id="strategy" style="color:rgb(209, 173, 130);"></span>
+                           <span id="arrow1" class="arrow" style="opacity: 0;">&rarr;</span>
+                           <span id="execution"></span>
+                           <span id="arrow2" class="arrow" style="opacity: 0;">&rarr;</span>
+                           <span id="outcomes" style="color:rgb(209, 173, 130);"></span>
+                     </div>
+
+
+                        <script>  gsap.registerPlugin(TextPlugin);
+
+                           function typeWriter(target, text) {
+                           return gsap.to(target, {
+                              text: {
+                                 value: text,
+                                 delimiter: ""
+                              },
+                              duration: text.length * 0.2, // Adjust speed as needed
+                              ease: "power1.inOut"
+                           });
+                           }
+
+                           const masterTimeline = gsap.timeline({
+                           repeat: -1, // Set to -1 for infinite repeat
+                           repeatDelay: 4, // Repeat every 5 seconds
+                           });
+
+                           // Initial typewriting with opacity
+                           masterTimeline.add(typeWriter("#strategy", "STRATEGY"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow1", "&rarr;"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+
+                           // Arrow 2 typewriting with opacity
+                           masterTimeline.add(typeWriter("#execution", "EXECUTION"));
+                           masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow2", "&rarr;"));
+                           masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
+
+                           // "OUTCOMES" typewriting with opacity
+                           masterTimeline.add(typeWriter("#outcomes", "OUTCOMES"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow1", "&rarr;"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+
+                           // Blinking effect before repeating
+                           const blinkTimeline = gsap.timeline({ delay: 2 }); // Delay before blinking
+                           blinkTimeline.to("#arrow1", { opacity: 0, duration: 0.2 })
+                           .to("#arrow1", { opacity: 1, duration: 0.2 })
+                           .to("#arrow2", { opacity: 0, duration: 0.2 })
+                           .to("#arrow2", { opacity: 1, duration: 0.2 });
+
+                           masterTimeline.add(blinkTimeline);
+                           </script>
+
+<div class="tp-caption btn-slider sfb"
+   data-x="center"
+   data-y="300"
+   data-speed="400"
+   data-start="800"
+   data-easing="easeInOutExpo">
+   <span class="shine"></span><a href="#services" onclick="navigateToSection()">More Detail</a>
+</div>
+
+<script>
+   function navigateToSection() {
+      // Use window.location.href to navigate to the specified section
+      window.location.href = "#sections";
+   }
+
+   // Your existing script
+</script>
                </li>
             </ul>
             <div class="tp-bannertimer hide"></div>
@@ -71,6 +113,8 @@
 
 <div id="services">
 <section class="service what-bg">
+<br/>
+   <br/>
    <div class="container">
       <div class="row">
          <div class="col-md-12 col-sm-12 col-xs-12">
@@ -159,7 +203,7 @@
             <div class="vc_custom_heading no_stripe text-center  d-md-block counter-head
                text_align_left has_icon  mb-3">
                <h4 style="font-size:31px;color: #ffffff;line-height:37px;text-align:center" 
-                  class="consulting-custom-title"><mark>Business</mark> &amp; cumminatin skill</h4>
+                  class="consulting-custom-title"><mark>Business</mark> skill</h4>
             </div>
          </div>
          <div class="col-lg-2 col-md-2 col-sm-2 col-6">
@@ -205,7 +249,9 @@
       <div class="section-title text-center mb-5">
          <br/>
          <br/>
-         <h2>about us &amp; faq's</h2>
+         <br/>
+         
+         <h2>about us</h2>
       </div>
       <div class="row">
          <div class="col-md-6 col-sm-12 col-xs-12">
@@ -267,109 +313,7 @@
    </div>
 </section>
 </div>
-<div id=team>
-   <br/>
-   <br/>
-<section class="achivement-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="about-info sec-padd text-center mb-5">
-               <div class="section-title">
-                  <h2>team</h2>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-12">
-            <div class="slick-slider blog-slider">
-               <div>
-                  <div class="item text-white">
-                     <div class="success_items">
-                        <div class="user-profile-test">
-                           <a href="#"><img src="img/testimonial/team1.webp" alt="Success"
-                              class="user_img img-fluid1"></a>
-                        </div>
-                        <div class="text-md-left text-center">
-                           <div class="info">
-                              <h4 class="no_stripe">
-                                 <a href="" tabindex="0">
-                                 Esther Ngomeli </a>
-                              </h4>
-                              <div class="position">Company Founder &amp; CEO</div>
-                              <p>Tagline</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div>
-                  <div class="item text-white">
-                     <div class="success_items">
-                        <div class="user-profile-test">
-                           <a href="#">  <img src="img/testimonial/team1.webp" alt="Success"
-                              class="user_img img-fluid1"></a>
-                        </div>
-                        <div class="text-md-left text-center">
-                           <div class="info">
-                              <h4 class="no_stripe">
-                                 <a href="" tabindex="0">
-                                 Person 2 
-                                 </a>
-                              </h4>
-                              <div class="position">Sales &amp; Marketing</div>
-                              <p>Tagline</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div>
-                  <div class="item text-white">
-                     <div class="success_items">
-                        <div class="user-profile-test">
-                           <a href="#"><img src="img/testimonial/team1.webp" alt="Success"
-                              class="user_img img-fluid1"></a>
-                        </div>
-                        <div class="text-md-left text-center">
-                           <div class="info">
-                              <h4 class="no_stripe">
-                                 <a href="" tabindex="0">
-                                 Person 3  </a>
-                              </h4>
-                              <div class="position">Sales &amp; Marketing</div>
-                              <p>Tagline.</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div>
-                  <div class="item text-white">
-                     <div class="success_items">
-                        <div class="user-profile-test">
-                           <a href="#">  <img src="img/testimonial/team1.webp" alt="Success" 
-                              class="user_img img-fluid1"></a>
-                        </div>
-                        <div class="text-md-left text-center">
-                           <div class="info">
-                              <h4 class="no_stripe">
-                                 <a href="" tabindex="0">
-                                 Person 4  </a>
-                              </h4>
-                              <div class="position">Sales &amp; Marketing</div>
-                              <p>Tagline</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
 
-</div>
 <div id=our-clients>
       <br>
       <br>
@@ -377,7 +321,7 @@
       <br>
    <div class="about-info sec-padd text-center mb-5">
       <div class="section-title">
-         <h2>key assignments</h2>
+         <h2></h2>
       </div>
    </div>
 

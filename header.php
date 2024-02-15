@@ -8,6 +8,7 @@
       <title>Zenith</title>
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
       <!----css3---->
       <link rel="stylesheet" href="css/custom.css">
       <link rel="stylesheet" href="font/flaticon.css">
@@ -37,6 +38,11 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <!-- fontawesome js -->
       <script src="https://kit.fontawesome.com/0c3d8da444.js" crossorigin="anonymous"></script>
+      <!-- word splitter js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/jquery.gsap.min.js" integrity="sha512-K43Gi6p1AN9cBmgnY3XE1ii0wc2Rl4dArjMgYeXpYmLSZGA7jXWcX4Drj52m2K9js6qHSRQoYlKyO4sSr3nbSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- typewriter effect -->
+      <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+      <script src="https://unpkg.com/gsap@3.9.0/dist/TextPlugin.min.js"></script>
    </head>
    <body>
       <div class="header" id="header">
@@ -50,7 +56,7 @@
                               <i class="fas fa-map-marker-alt"></i>
                               <div class="stm-iconbox__info">
                                  <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    G43 Delamere Flats			
+                                    <a href="https://maps.app.goo.gl/V3FJHhydyCB7AfTGA">G43 Delamere Flats	</a>			
                                  </div>
                                  <div class="stm-iconbox__description">
                                     Milimani Rd, Nairobi  KE.				
@@ -76,10 +82,14 @@
                               <i class="fas fa-phone"></i>
                               <div class="stm-iconbox__info">
                                  <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                 info@zenitheastafrica.com				
+                                 <a href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>		
                                  </div>
                                  <div class="stm-iconbox__description">
-                                    Talk to us				
+                                 <a href="tel:+254794030408">+254794030408</a>
+                                 <span>/</span>	
+                                 <a href="tel:0204402222">0204402222</a>	
+                                 <span>/</span>
+                                 <a href="tel:0204403333">0204403333</a>	
                                  </div>
                               </div>
                            </div>
@@ -208,7 +218,7 @@
 
 
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
-                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest.png" class="img-fluid"/></a>
+                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest3.png" class="img-fluid"/></a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
                      <span></span>
@@ -257,7 +267,7 @@
 
 
                            <li class="nav-item">
-                              <a class="nav-link" href="/#team">Our Team</a>
+                              <a class="nav-link" href="/team.php">Our Team</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="/#our-clients">clients</a>

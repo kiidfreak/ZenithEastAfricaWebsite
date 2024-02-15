@@ -1,98 +1,73 @@
 <footer id="footer" class="footer style_1">
-   <div class="widgets_row">
-      <div class="container">
-         <div class="footer_widgets">
-            <div class="row">
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="footer_logo">
-                     <a href="index.php" class="mb-3 d-flex">
-                     <img src="img/ZenithLogo.png" alt="" width="170px;">
-                     </a>
-                     <p>Zenith collaboratively works together to Ignite Change through Disruptive Thinking, Strategic Planning and Execution for Positive Impact.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <section id="recent-posts-4" class="widget widget_recent_entries">
-                     <h4 class="widget_title">recent news</h4>
-                     <ul>
-                        <li>
-                           <a href="">Zenith announces a partnership with Meta</a>
-                           <span class="post-date">January 26, 2024</span>
-                        </li>
-                        <li>
-                           <a href="">Zenith announces a partnership with Visa</a>
-                           <span class="post-date">December 20, 2023</span>
-                        </li>
-                     </ul>
-                  </section>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <section id="nav_menu-2" class="widget widget_nav_menu">
-                     <h4 class="widget_title">extra links</h4>
-                     <div class="menu-extra-links-container">
-                        <ul id="menu-extra-links" class="menu">
-                           <li class="menu-item ">
-                              <a href="/#about-us">About</a>
-                           </li>
-                           <li  class="menu-item">
-                           <a href="/#blog">Blog</a>
-                           </li>
-                           <li class="menu-item">
-                              <a href="/#team">Our team</a>
-                           </li>
-                           <li  class="menu-item">
-                              <a href="/contact.php">Contact Us</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </section>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <section class="form_widget">
-                     <h4 class="widget_title">subscribe</h4>
-                     <form class="" method="post">
-                        <div class="mc4wp-form-fields">
-                           <div class="input-group mb-3">
-                             <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
-                              <input type="hidden" name="_next" value="Zenith - Promotional Emails">
-                              <input type="email" class="form-control" placeholder="Enter your email" required="">
-                              <span class="input-group-btn">
-                              <button class="btn" title="submit" type=""><i class="far fa-envelope"></i></button>
-                              </span>
-                              </form>
-                           </div>
-                           <p>Get latest updates about Zenith</p>
+    <div class="widgets_row">
+        <div class="container">
+            <div class="footer_widgets">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="footer_logo">
+                            <a href="index.php" class="mb-3 d-flex">
+                                <img src="img/ZenithLogo.png" alt="" width="170px;">
+                            </a>
+                            <p>Zenith collaboratively works together to Ignite Change through Disruptive Thinking, Strategic Planning and Execution for Positive Impact.</p>
                         </div>
-                     </form>
-                  </section>
-               </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <section id="nav_menu-2" class="widget widget_nav_menu">
+                            <h4 class="widget_title">Reach Out</h4>
+                            <div class="contactsinfo" id="contacttext" style="color: #fff;">
+                                <span>Call us on:</span><br/>
+                                <a href="tel:+254700000000">+254 700 000 000</a><br/>
+                                <a href="tel:+254700000001">+254 700 000 001</a><br/><br/>
+                                <span>Email:</span><br/>
+                                <a href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <section class="form_widget">
+                            <h4 class="widget_title">subscribe</h4>
+                            <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
+                                <input type="hidden" name="_next" value="Zenith - Promotional Emails">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter your email" required="">
+                                    <span class="input-group-btn">
+                                        <button class="btn" title="submit" type=""><i class="far fa-envelope"></i></button>
+                                    </span>
+                                </div>
+                                <p>Get latest updates about Zenith</p>
+                            </form>
+                        </section>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
-   <div class="copyright_row">
-      <div class="container">
-         <div class="copyright_row_wr">
-            <div class="socials">
-               <ul>
-                  <li>
-                     <a href="" target="_blank" class="social-facebook">
-                     <i class="fab fa-facebook-f"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="" target="_blank" class="social-twitter">
-                     <i class="fab fa-twitter"></i>
-                     </a>
-                  </li>
-               </ul>
+        </div>
+    </div>
+
+    <div class="copyright_row">
+        <div class="container">
+            <div class="copyright_row_wr">
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank" class="social-linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-twitter-x">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright">&copy; 2024 <a href="" target="_blank">Zenith East Africa</a></div>
             </div>
-            <div class="copyright"> &copy 2024 <a href="" target="_blank"></a> Design by <a href="mailto:gemaofficial.ke@gmail.com" target="_blank"> GEMAL LABS</a></div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
 </footer>
+
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
 <i class="fas fa-long-arrow-alt-up"></i></a>
 
@@ -109,7 +84,9 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-
+      <!-- word splitter js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/jquery.gsap.min.js" integrity="sha512-K43Gi6p1AN9cBmgnY3XE1ii0wc2Rl4dArjMgYeXpYmLSZGA7jXWcX4Drj52m2K9js6qHSRQoYlKyO4sSr3nbSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
 <script>
 /**
    * Easy selector helper function
