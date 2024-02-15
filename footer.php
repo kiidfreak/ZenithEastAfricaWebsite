@@ -16,11 +16,12 @@
                         <section id="nav_menu-2" class="widget widget_nav_menu">
                             <h4 class="widget_title">Reach Out</h4>
                             <div class="contactsinfo" id="contacttext" style="color: #fff;">
-                                <span>Call us on:</span><br/>
-                                <a href="tel:+254700000000">+254 700 000 000</a><br/>
-                                <a href="tel:+254700000001">+254 700 000 001</a><br/><br/>
+                                <span>Call us on:</span><br/><br/>
+                                <a style="color: #fff;" href="tel:+254794030408"> +254 794030408 </a><br/>
+                                <a style="color: #fff;" href="tel:+0204402222"> +020 4402222 </a><br/>
+                                <a style="color: #fff;" href="tel:+0204403333"> +020 4403333 </a><br/><br/>
                                 <span>Email:</span><br/>
-                                <a href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
+                                <a style="color: #fff;" href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
                             </div>
                         </section>
                     </div>

@@ -549,7 +549,7 @@ a, button {
 }
 
 .navbar-nav .nav-item.active .nav-link {
-    color: #d3af84;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -2009,7 +2009,7 @@ a.blantershow-chat {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(89 89 89 / 90%);
+    background: rgba(0, 0, 0, 0.9);
     content: '';
     right: 0;
     bottom: 0;
@@ -2347,6 +2347,21 @@ a.blantershow-chat {
     transition: all .5s cubic-bezier(0.4, 0, 1, 1);
 }
 
+#thm-btn {
+    position: relative;
+    background: #000000;
+    font-size: 11px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 2px solid #000000;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 14px;
+    border-radius: 4px;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+    text-decoration: none;
+}
 
 
 .slick-prev:before, .slick-next:before {

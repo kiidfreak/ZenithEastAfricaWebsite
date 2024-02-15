@@ -39,12 +39,12 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff3333;
+  color: #d3af84;
   text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ h6 {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background: rgb(155 123 82);
+  background: rgba(211, 175, 132, 0.89);
   padding: 30px;
 }
 
@@ -403,7 +403,7 @@ h6 {
   width: 100%;
   padding: 30px;
   padding-top: 0;
-  background: rgb(155 123 82);
+  background: #d3af84db;
 }
 
 .contact .php-email-form .form-group {
@@ -492,7 +492,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fd9b28;
+  background: #6a5032;
 }
 
 @keyframes animate-loading {
@@ -505,39 +505,193 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #f2f2f2;
-  padding: 30px 0;
-  color: #fff;
-  font-size: 14px;
-  position: relative;
+	   
+
+/*===========footer=======*/
+footer {
+    font-weight: 400;
+    background: #292e34;
+	position:relative;
+	width:100%;
+	z-index:-1;
+	bottom:0;
+    padding: 90px 0 0;
 }
 
-#footer .copyright {
-  text-align: center;
+
+.p-3-vh {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer .description {
+    color: #fff;
+    line-height: 2;
 }
 
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
+footer .s-social {
+    width: max-content;
+    margin: 30px 0 0;
 }
 
-#footer .credits a {
-  color: #ff3333;
+footer .s-social a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 15px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 40px;
+    transition: all .3s ease-in-out;
 }
 
-.rowinfo{
-  border: 5px solid;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+footer .heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 3rem;
+    margin-bottom: 30px;
+}
+footer .s-address {
+    color: #fff;
+}
+.s-address .detail a {
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
 }
 
+
+.subfooter .terms {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #ccc;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.subfooter .copyright {
+    font-size: .9rem;
+    color: #ccc;
+}
+
+.s-address .detail {
+    font-size: 1rem;
+    display: block;
+    margin-bottom:10px;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-top: 45px;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+
+/*============testimonial========*/
+
+.testimony-section {
+    position: relative;
+    background: #fbb130;
+    padding: 50px 0px;
+}
+
+.img, .blog-img, .user-img {
+    width: 100%;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
+
+.testimony-wrap {
+    display: block;
+    margin: 0px 10px;
+    border: 1px solid #dfa642;
+    position: relative;
+    padding: 10px 10px;
+    z-index: 0;
+    background: #fff9f042;
+}
+
+.heading-section.heading-section-white h2 {
+    color: #1a1a1a;
+}
+
+.heading-section.heading-section-white .subheading {
+   color: #f44237;
+}
+
+
+.testimony-wrap .user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.testimony-wrap .text {
+    width: calc(100% - 50px);
+    position: relative;
+}
+
+.testimony-wrap .text p {
+    color: #000000;
+}
+
+.testimony-wrap .rate span {
+    font-size: 12px;
+    color: #ffbf01;
+}
+
+.testimony-wrap .text p {
+    color: #000000;
+    margin: 0px;
+}
+.testimony-wrap .rate {
+    margin-bottom: 0;
+}
+
+.testimony-wrap .name {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 0;
+    color: #2e4157 !important;
+}
+
+.testimony-wrap .quote i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.testimonial-slider .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding:30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimony-wrap .quote {
+    position: absolute;
+    /* top: -50px; */
+    /* left: 25px; */
+    bottom: -10px;
+    z-index: 998;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    right: -11px;
+    background: #2e4157;
+    /* border-radius: 50%; */
+}
 
 
 </style>
@@ -561,19 +715,26 @@ h6 {
             <div class="col-lg-4 info">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>Milimani rd<br>Nairobi, 00200</p>
+
+              <a style="text-decoration: none; color: #fff" href="https://maps.app.goo.gl/V3FJHhydyCB7AfTGA">Milimani rd,  Nairobi	</a>	
             </div>
 
             <div class="col-lg-4 info mt-4 mt-lg-0">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>info@zenitheastafrica.com</p>
+              <a style="color: #fff;" href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
             </div>
 
-            <div class="col-lg-4 info mt-4 mt-lg-0">
+            <div class="col-lg-4 info mt-4 mt-lg-0" text-center>
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>Not Available Yet</p>
+              <div style="text-align: center;">
+                <a style="text-decoration: none; color: #fff" href="tel:+254794030408">+254 794030408</a>
+                <br/>	
+                <a style="text-decoration: none; color: #fff" href="tel:+020  440 2222">+020 4402222</a>	
+                <br/>
+                <a style="text-decoration: none; color: #fff" href="tel:+020  440 3333">+020 4403333</a>	
+              </div>
             </div>
           </div>
         </div>

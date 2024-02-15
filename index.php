@@ -111,6 +111,19 @@
    <!-- revolution slider end -->
 </div>
 
+<section class="parallax-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="vc_custom_heading text_align_center">
+               <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
+                  class="consulting-custom-title">In today’s<mark>rapidly evolving economic and business landscape, </mark>it is imperative for organizations to adopt a broader comprehensive approach that effectively meets the <mark>continually evolving needs and priorities</mark> of their consumers and stakeholders.</h4>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 <div id="services">
 <section class="service what-bg">
 <br/>
@@ -120,7 +133,7 @@
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="about-info sec-padd text-center mb-5">
                <div class="section-title">
-                  <h2>industries</h2>
+                  <h2>Industries</h2>
                </div>
             </div>
          </div>
@@ -131,7 +144,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">For Profit Businesses</h4>
-                  <P>Company that offers design and build services for you from initial sketches to the final production.</p>
+                  <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p>
                </div>
             </div>
          </div>
@@ -142,7 +155,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Non-Profit Organisations</h4>
-                  <P>We consider all the drivers of change from the ground up and we’ll motivate and support you to make the change.</p>
+                  <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p>
                </div>
             </div>
          </div>
@@ -153,7 +166,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Civil Society Actors</h4>
-                  <P>Design repeatable growth models and innovation pipelines that generate new products with higher potential and lower risks of failure.</p>
+                  <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p>
                </div>
             </div>
          </div>
@@ -164,7 +177,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Social Profit Enterprises</h4>
-                  <P>Design repeatable growth models and innovation pipelines that generate new products with higher potential and lower risks of failure.</p>
+                  <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p>
                </div>
             </div>
          </div>
@@ -175,7 +188,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Public Authorities</h4>
-                  <P>Scheduled transport operations, from broad market trends and strategy to the development of integrated commercial strategies..</p>
+                  <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p>
                </div>
             </div>
          </div>
@@ -186,7 +199,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">And so much more..</h4>
-                  <P>We work across all the major geographies, meaning we understand the underlying drivers in construction markets.</p>
+                  <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p>
                </div>
             </div>
          </div>
@@ -209,7 +222,7 @@
          <div class="col-lg-2 col-md-2 col-sm-2 col-6">
             <div class="fun-facts-card">
                <div class="content text-center">
-                  <span class="counter">5 </span><span style="color: #ffffff; font-size: 50px; font-weight: 700; margin: 0 0 0px; line-height: 60px;white-space: nowrap;"> +</span>
+                  <span class="counter">25 </span><span style="color: #ffffff; font-size: 50px; font-weight: 700; margin: 0 0 0px; line-height: 60px;white-space: nowrap;"> +</span>
                   <div class="counter-title">Years in Practice</div>
                </div>
             </div>
@@ -251,7 +264,7 @@
          <br/>
          <br/>
          
-         <h2>about us</h2>
+         <h2>About us</h2>
       </div>
       <div class="row">
          <div class="col-md-6 col-sm-12 col-xs-12">
@@ -259,15 +272,41 @@
                <h4>Zenith East Africa is a Strategic C-Suite Advisory Firm offering discerning clients with specialist services.</h4>
                <br>
                <div class="text">
-                  <p>We collaboratively work together to Ignite Change through Disruptive Thinking, Strategic Planning and Execution for Positive Impact<BR><BR>
-                     We have more than 1,000 professional partners worldwide. We advise and 
-                     support global companies that are leaders in their industries.
+                  <p>At our core, we fervently believe in the harmonious
+                     coexistence of profitability and social good. Grounded in
+                     people-centric principles, we wholeheartedly adopt
+                     practices that generate value for our stakeholders.
                   </p>
                </div>
-               <div class="link_btn">
-                  <a href="#" class="thm-btn">know more <i class="vc_btn3-icon fas fa-chevron-right"></i></a>
-                  <!--<div class="sign"><img src="images/resource/sign.jpg" alt=""></div>-->
+               <div class="link_btn" >
+                  <span style="color:#8f7e5d">People</span>
+                  <span style="color:#4db0e2">Practice</span>
+                  <span style="color:#951c8a">Perfomance</span>
+                  <span style="color:#e7a520">Planet</span>
+                  <span style="color:#008d3d">Impact</span>
                </div>
+               <div class="text">
+                  <p style="text-align:center" >
+                     <br/>
+                  Our purpose is in achieving
+                  business profitably, while being a
+                  force for good in our society.
+                  </p>
+               </div>
+
+               <style>
+    .link_btn {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Adjust the gap as needed */
+    }
+
+    .link_btn span {
+        cursor: pointer;
+    }
+</style>
+
+
             </div>
          </div>
          <div class="col-md-6 col-sm-12 col-xs-12">
@@ -276,33 +315,39 @@
                   <div class="card">
                      <div class="card-header" id="faqhead1">
                         <a href="#" class="btn-header-link text-truncate" data-toggle="collapse" data-target="#faq1"
-                           aria-expanded="true" aria-controls="faq1">What does Zenith do?</a>
+                           aria-expanded="true" aria-controls="faq1">Why does Zenith East Africa do this?</a>
                      </div>
                      <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
                         <div class="card-body">
-                           We leverage on Market Insights and Networks to provide Business and Communication Counsel to leaders of enterprises, as they navigate their different operating environments.
+                        Our commitment is grounded in the belief that the coexistence of profitable enterprises, while being a force for good in our society is not just a possibility but a business imperative.
                         </div>
                      </div>
                   </div>
                   <div class="card">
                      <div class="card-header" id="faqhead2">
                         <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq2"
-                           aria-expanded="true" aria-controls="faq2">Which geographies you have worked already?</a>
+                           aria-expanded="true" aria-controls="faq2">How does Zenith East Africa do this?</a>
                      </div>
                      <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
                         <div class="card-body"> 
-                           We have a robust track record in corporate leadership, business growth, and strategic counsel across sub-Saharan Africa, with a focus on Kenya and other regional and global platforms.
+                        We work collaboratively with you to ignite change and create positive impact through: <br/> <br/>
+                           <span>  &rarr;Disruptive Thinking </span> <br/>
+                           <span>  &rarr;Strategic Planning </span> <br/>
+                           <span>  &rarr;Excellence in Execution </span> <br/>
+
                         </div>
                      </div>
                   </div>
                   <div class="card">
                      <div class="card-header" id="faqhead3">
                         <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq3"
-                           aria-expanded="true" aria-controls="faq3">What makes you special from others?</a>
+                           aria-expanded="true" aria-controls="faq3">What makes Zenith East Africa special from others?</a>
                      </div>
                      <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
                         <div class="card-body">
-                           Not only does our team produce great work, we pride ourselves in building and sustaining strong relationships anchored on professionalism and continuous value creation in building, positioning and protecting the reputation of brands, enterprises and teams.
+                        Our team not only delivers exceptional work but also takes pride in building and sustaining strong relationships anchored on professionalism and continuous value creation. <br/> <br/>
+                        This commitment extends to building, positioning and protecting the reputation of brands, enterprises and teams.
+
                         </div>
                      </div>
                   </div>
@@ -513,7 +558,7 @@
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="about-info sec-padd text-center mb-5">
                <div class="section-title">
-                  <h2>company news</h2>
+                  <h2>News</h2>
                </div>
             </div>
          </div>

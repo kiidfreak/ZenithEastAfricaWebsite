@@ -85,11 +85,11 @@
                                  <a href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>		
                                  </div>
                                  <div class="stm-iconbox__description">
-                                 <a href="tel:+254794030408">+254794030408</a>
+                                 <a href="tel:+254794030408">+254 794030408</a>
                                  <span>/</span>	
-                                 <a href="tel:0204402222">0204402222</a>	
+                                 <a href="tel:+0204402222">+020 4402222</a>	
                                  <span>/</span>
-                                 <a href="tel:0204403333">0204403333</a>	
+                                 <a href="tel:+0204403333">+020 4403333</a>	
                                  </div>
                               </div>
                            </div>
