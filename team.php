@@ -23,7 +23,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="about-info sec-padd text-center mb-5">
                             <div class="section-title">
-                                <h2>Meet our ceo</h2>
+                                <h2>Meet our CEO</h2>
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@
                         </div>
                         <div class="col-md-9">
                             <div class="article-content">
-                                <h2>Esther Ngomeli</h2>
-                                <span>FCIM Founder/CEO</span>
+                                <h2>Esther Ngomeli<span style="font-size: 17px;font-weight: bold;"> FCIM</span></h2>
+                                <span style="font-size: 17px;font-weight: bold;">Founder/CEO</span>
                                 <p>
                                     Esther Ngomeli is a Seasoned Entrepreneur and Marketer, with over twenty-five years (25)
                                     experience in corporate leadership and is the Founder/CEO of Zenith East Africa Limited, a
@@ -128,7 +128,7 @@
         </div>
     </section>
 
-    <div id="team">
+    <!-- <div id="team">
     <br />
     <br />
     <section class="achivement-bg">
@@ -220,12 +220,12 @@
                             </div>
                         </div>
                         <!-- Add more team members as needed -->
-                    </div>
+                    <!-- </div>
                 </div>
             </div>
         </div>
     </section>
-</div>
+</div> --> -->
 
 
     <?php include("footer.php"); ?>

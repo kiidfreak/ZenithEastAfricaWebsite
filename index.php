@@ -30,11 +30,11 @@
                               data-easing="easeInOutExpo" 
                               data-endspeed="450"
                               style="text-align: center; display: flex; align-items: center; justify-content: center; padding-left:19%">
-                           <span id="strategy" style="color:rgb(209, 173, 130);"></span>
-                           <span id="arrow1" class="arrow" style="opacity: 0;">&rarr;</span>
+                           <span id="strategy" style="color:#B2810B;"></span>
+                           <span id="arrow1" class="arrow" style="opacity: 0;">&gt;</span>
                            <span id="execution"></span>
-                           <span id="arrow2" class="arrow" style="opacity: 0;">&rarr;</span>
-                           <span id="outcomes" style="color:rgb(209, 173, 130);"></span>
+                           <span id="arrow2" class="arrow" style="opacity: 0;">&gt;</span>
+                           <span id="outcomes" style="color:#B2810B;"></span>
                      </div>
 
 
@@ -59,19 +59,19 @@
                            // Initial typewriting with opacity
                            masterTimeline.add(typeWriter("#strategy", "STRATEGY"));
                            masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
-                           masterTimeline.add(typeWriter("#arrow1", "&rarr;"));
+                           masterTimeline.add(typeWriter("#arrow1", "&gt;"));
                            masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
 
                            // Arrow 2 typewriting with opacity
                            masterTimeline.add(typeWriter("#execution", "EXECUTION"));
                            masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
-                           masterTimeline.add(typeWriter("#arrow2", "&rarr;"));
+                           masterTimeline.add(typeWriter("#arrow2", "&gt;"));
                            masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
 
                            // "OUTCOMES" typewriting with opacity
                            masterTimeline.add(typeWriter("#outcomes", "OUTCOMES"));
                            masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
-                           masterTimeline.add(typeWriter("#arrow1", "&rarr;"));
+                           masterTimeline.add(typeWriter("#arrow1", "&gt;"));
                            masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
 
                            // Blinking effect before repeating
@@ -133,7 +133,7 @@
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="about-info sec-padd text-center mb-5">
                <div class="section-title">
-                  <h2>Industries</h2>
+                  <h2>Sectors</h2>
                </div>
             </div>
          </div>
@@ -143,8 +143,8 @@
                   <i class="fa-solid fa-money-bill"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">For Profit Businesses</h4>
-                  <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p>
+                  <h4 class="we-title">For-Profit Businesses</h4>
+                  <!-- <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p> -->
                </div>
             </div>
          </div>
@@ -155,7 +155,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Non-Profit Organisations</h4>
-                  <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p>
+                  <!-- <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p> -->
                </div>
             </div>
          </div>
@@ -166,7 +166,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Civil Society Actors</h4>
-                  <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p>
+                  <!-- <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p> -->
                </div>
             </div>
          </div>
@@ -177,7 +177,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Social Profit Enterprises</h4>
-                  <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p>
+                  <!-- <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p> -->
                </div>
             </div>
          </div>
@@ -188,7 +188,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">Public Authorities</h4>
-                  <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p>
+                  <!-- <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p> -->
                </div>
             </div>
          </div>
@@ -199,7 +199,7 @@
                </div>
                <div class="we-desc">
                   <h4 class="we-title">And so much more..</h4>
-                  <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p>
+                  <!-- <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p> -->
                </div>
             </div>
          </div>
@@ -207,6 +207,39 @@
    </div>
 </section>
 </div>
+
+<div id="about-us">
+    <section class="about-faq sec-padd py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Our Toolbox</h2>
+            </div>
+            <div class="row">
+                    <div class="about-info text-center">
+                        <h4>We translate insights into award-winning and disruptive strategies, craft innovative and
+                            human-centric communication, that works across multiple channels transforming businesses and
+                            brand performance, sustainably.</h4>
+                        <br>
+                        <div class="link_btn d-flex flex-wrap justify-content-center">
+                            <span class="mx-2" style="color:#b2810b">Research</span>
+                            <span class="mx-2" style="color:#000">Insights</span>
+                            <span class="mx-2" style="color:#b2810b">Strategies</span>
+                            <span class="mx-2" style="color:#000">Execution</span>
+                            <span class="mx-2" style="color:#b2810b">Outcomes</span>
+                        </div>
+                        <br/>
+                        <div class="text">
+                            <p>
+                                Rooted in extensive experience and diverse exposure in various sectors, our
+                                methodologies untangle and challenge conventional solutions.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 
 
 <div class="fun-facts pt-70 pb-100">
@@ -255,6 +288,8 @@
       </div>
    </div>
 </div>
+
+
    <div id="about-us">
 <section class="about-faq sec-padd py-5">
 
@@ -278,13 +313,14 @@
                      practices that generate value for our stakeholders.
                   </p>
                </div>
-               <div class="link_btn" >
-                  <span style="color:#8f7e5d">People</span>
-                  <span style="color:#4db0e2">Practice</span>
-                  <span style="color:#951c8a">Perfomance</span>
-                  <span style="color:#e7a520">Planet</span>
-                  <span style="color:#008d3d">Impact</span>
-               </div>
+               <div class="link_btn d-flex flex-wrap justify-content-center">
+    <span class="mx-2" style="color:#8f7e5d">People</span>
+    <span class="mx-2" style="color:#4db0e2">Practice</span>
+    <span class="mx-2" style="color:#951c8a">Performance</span>
+    <span class="mx-2" style="color:#e7a520">Planet</span>
+    <span class="mx-2" style="color:#008d3d">Impact</span>
+</div>
+
                <div class="text">
                   <p style="text-align:center" >
                      <br/>
@@ -304,7 +340,44 @@
     .link_btn span {
         cursor: pointer;
     }
+
+    /* CSS for the drop-down icons */
+.btn-header-link .fa-chevron-down {
+    display: none;
+}
+
+.btn-header-link.collapsed .fa-chevron-up {
+    display: none;
+}
+
+.btn-header-link.collapsed .fa-chevron-down {
+    display: inline;
+}
+.chevron-icons {
+    float: right;
+}
 </style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Add this script in your HTML file -->
+<script>
+    $(document).ready(function () {
+        $('.btn-header-link').click(function () {
+            // Toggle the chevron icon based on the collapse state
+            var chevronUp = $(this).find('.fa-chevron-up');
+            var chevronDown = $(this).find('.fa-chevron-down');
+            
+            if ($(this).hasClass('collapsed')) {
+                chevronUp.show();
+                chevronDown.hide();
+            } else {
+                chevronUp.hide();
+                chevronDown.show();
+            }
+        });
+    });
+</script>
 
 
             </div>
@@ -313,10 +386,18 @@
             <div id="main">
                <div class="accordion" id="faq">
                   <div class="card">
+
                      <div class="card-header" id="faqhead1">
-                        <a href="#" class="btn-header-link text-truncate" data-toggle="collapse" data-target="#faq1"
-                           aria-expanded="true" aria-controls="faq1">Why does Zenith East Africa do this?</a>
+                     <a href="#" class="btn-header-link text-truncated collapsed" data-toggle="collapse" data-target="#faq1"
+                        aria-expanded="false" aria-controls="faq1">
+                        Why we do it?
+                        <span class="chevron-icons">
+                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
+                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
+                        </span>
+                     </a>
                      </div>
+
                      <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
                         <div class="card-body">
                         Our commitment is grounded in the belief that the coexistence of profitable enterprises, while being a force for good in our society is not just a possibility but a business imperative.
@@ -326,14 +407,16 @@
                   <div class="card">
                      <div class="card-header" id="faqhead2">
                         <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq2"
-                           aria-expanded="true" aria-controls="faq2">How does Zenith East Africa do this?</a>
+                           aria-expanded="true" aria-controls="faq2">How we do it?
+                           <span class="chevron-icons">
+                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
+                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
+                        </span>
+                        </a>
                      </div>
                      <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
                         <div class="card-body"> 
-                        We work collaboratively with you to ignite change and create positive impact through: <br/> <br/>
-                           <span>  &rarr;Disruptive Thinking </span> <br/>
-                           <span>  &rarr;Strategic Planning </span> <br/>
-                           <span>  &rarr;Excellence in Execution </span> <br/>
+                        With each project, our disruptive thinking cuts through the noise, uncovers valuable insights, enabling us to  create strategies and communication that establish  stronger connections between businesses, brands  and their stakeholders.
 
                         </div>
                      </div>
@@ -341,7 +424,12 @@
                   <div class="card">
                      <div class="card-header" id="faqhead3">
                         <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq3"
-                           aria-expanded="true" aria-controls="faq3">What makes Zenith East Africa special from others?</a>
+                           aria-expanded="true" aria-controls="faq3">What differentiates us?
+                           <span class="chevron-icons">
+                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
+                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
+                        </span>
+                        </a>
                      </div>
                      <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
                         <div class="card-body">
@@ -356,18 +444,30 @@
          </div>
       </div>
    </div>
+   <br/>
+   <br/>
 </section>
 </div>
 
-<div id=our-clients>
-      <br>
-      <br>
-      <br>
-      <br>
-   <div class="about-info sec-padd text-center mb-5">
-      <div class="section-title">
-         <h2></h2>
+<section class="parallax-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="vc_custom_heading text_align_center">
+               <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
+                  class="consulting-custom-title">If it did not push the dial, it did not happen. <mark>Our measure</mark> of great work <mark>is assessed</mark> through the lenses of <mark>clear</mark> and <mark>quantifiable business </mark>and <mark>social impact outcomes.</mark></h4>
+            </div>
+         </div>
       </div>
+   </div>
+</section>
+
+<div id=our-clients>
+
+   <div class="about-info sec-padd text-center mb-5">
+      <!-- <div class="section-title">
+         <h2></h2>
+      </div> -->
    </div>
 
 
@@ -548,9 +648,12 @@
 </section>
 
 <div id="blog">
+   <!-- <br>
    <br>
+
    <br>
-<section class="blog">
+   <br> -->
+<!-- <section class="blog">
  <div class="containerwrap">
    
    <div class="container-fluid">
@@ -625,6 +728,6 @@
       </div>
    </div>
  </div>
-</section>
+</section> -->
 </div>
 <?php include("footer.php");?>

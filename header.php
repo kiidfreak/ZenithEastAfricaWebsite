@@ -56,7 +56,7 @@
                               <i class="fas fa-map-marker-alt"></i>
                               <div class="stm-iconbox__info">
                                  <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    <a href="https://maps.app.goo.gl/V3FJHhydyCB7AfTGA">G43 Delamere Flats	</a>			
+                                    <a href="https://maps.app.goo.gl/V3FJHhydyCB7AfTGA">G34 Delamere Flats	</a>			
                                  </div>
                                  <div class="stm-iconbox__description">
                                     Milimani Rd, Nairobi  KE.				
@@ -64,16 +64,16 @@
                               </div>
                            </div>
                         </div>
-                        <div class="location-div header-item">
+                        <div class="location-div header-item" style="align-content: center;display: grid;" >
                            <div class="stm-iconbox  d-flex align-items-center">
                               <i class="far fa-clock"></i>
                               <div class="stm-iconbox__info">
                                  <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    Mon - Sat 8.00 - 18.00				
+                                    Monday - Friday <br/>8:00AM - 5:00PM				
                                  </div>
-                                 <div class="stm-iconbox__description">
+                                 <!-- <div class="stm-iconbox__description">
                                     Sunday CLOSED				
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                         </div>
@@ -87,9 +87,9 @@
                                  <div class="stm-iconbox__description">
                                  <a href="tel:+254794030408">+254 794030408</a>
                                  <span>/</span>	
-                                 <a href="tel:+0204402222">+020 4402222</a>	
+                                 <a href="tel:+0204402222">020 4402222</a>	
                                  <span>/</span>
-                                 <a href="tel:+0204403333">+020 4403333</a>	
+                                 <a href="tel:+0204403333">020 4403333</a>	
                                  </div>
                               </div>
                            </div>
@@ -218,7 +218,7 @@
 
 
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
-                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest3.png" class="img-fluid"/></a>
+                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest2.png" class="img-fluid"/></a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
                      <span></span>
@@ -229,19 +229,21 @@
                            <li class="nav-item active">
                               <a class="nav-link " href="index.php">Home</a>
                            </li>
-                           <li class="nav-item">
+                           <!-- <li class="nav-item">
                               <a class="nav-link" href="/#about-us">About us</a>
-                           </li>
+                           </li> -->
 
                            <li class="nav-item dropdown" id="servicesDropdown">
                               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Services</a>
                               <ul class="dropdown-menu">
+
+
                                  <li class="nav-item dropdown-submenu">
-                                       <a class="nav-link dropdown-toggle" href="#">Business Design & Brand Strategy</a>
+                                       <a class="nav-link dropdown-toggle" href="#">Business Design &amp; Brand Strategy</a>
                                        <ul class="dropdown-menu">
                                           <li><a class="dropdown-item" >Brand Development</a></li>
                                           <li><a class="dropdown-item" >Brand Purpose Positioning + Expressions</a></li>
-                                          <li><a style="white-space:wrap" class="dropdown-item" >Growth, Brand + Brand/Customer Experience Innovation</a></li>
+                                          <li><a style="white-space:break-spaces" class="dropdown-item" >Growth, Brand + Brand/Customer Experience Innovation</a></li>
                                        </ul>
                                  </li>
                                  <li class="nav-item dropdown-submenu">
@@ -250,18 +252,26 @@
                                           <li><a class="dropdown-item" >Advertising</a></li>
                                           <li><a class="dropdown-item" >Public Relations</a></li>
                                           <li><a class="dropdown-item" >Digital Marketing</a></li>
-                                          <li><a class="dropdown-item" >Experiential and Event Management</a></li>
+                                          <li><a class="dropdown-item" >Experiential &amp; Event Management</a></li>
                                           <li><a class="dropdown-item" >Production</a></li>
                                        </ul>
                                  </li>
+
                                  <li class="nav-item dropdown-submenu">
                                        <a class="nav-link dropdown-toggle" href="#">Specialist Services</a>
                                        <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" >Investment Authority</a></li>
-                                          <li><a class="dropdown-item" >Development Communication</a></li>
-                                          <li><a class="dropdown-item" >Sustainability Communication and ESG Reporting</a></li>
+                                          <li><a class="dropdown-item" >Investment Advisory</a></li>
                                        </ul>
                                  </li>
+
+                                 <li class="nav-item dropdown-submenu">
+                                       <a class="nav-link dropdown-toggle" href="#">Social Impact</a>
+                                       <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" >Development Communication</a></li>
+                                          <li><a class="dropdown-item" >Sustainability Communication &amp; ESG Reporting</a></li>
+                                       </ul>
+                                 </li>
+
                               </ul>
                            </li>
 
@@ -273,7 +283,7 @@
                               <a class="nav-link" href="/#our-clients">clients</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/#blog">Resource</a>
+                              <a class="nav-link" href="/resources.php">News Bureau</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="/contact.php">Contact Us</a>
@@ -289,10 +299,7 @@
                                  <ul class="extra-small-icon d-flex ml-lg-3">
                                     <li>
                                        <a class="instagram" href="" target="_blank">
-                                       <i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li><a class="facebook-f" href="" target="_blank">
-                                       <i class="fab fa-facebook-f"></i></a>
+                                       <i class="fa-brands fa-x-twitter"></i>
                                     </li>
                                     <li><a class="linkedin-in" href="" target="_blank">
                                        <i class="fab fa-linkedin-in"></i></a>

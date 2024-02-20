@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #d3af84;
+  color: #B2810B;
   text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ h6 {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background: rgba(211, 175, 132, 0.89);
+  background: #b2810bcf;
   padding: 30px;
 }
 
@@ -403,7 +403,9 @@ h6 {
   width: 100%;
   padding: 30px;
   padding-top: 0;
-  background: #d3af84db;
+  background: transparent;
+  border: 5px solid #000;
+  border-top: 0;
 }
 
 .contact .php-email-form .form-group {
@@ -472,19 +474,22 @@ h6 {
 
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: black;
 }
 
 .contact .php-email-form input {
   height: 44px;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  border: 1px solid #000;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #b68143;
+  background: #c09838;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -710,7 +715,7 @@ footer .s-address {
 
       <div class="col-lg-10">
 
-        <div class="info-wrap">
+        <div class="info-wrap" style="border: 5px #000 solid;border-bottom: 0;">
           <div class="row">
             <div class="col-lg-4 info">
               <i class="bi bi-geo-alt"></i>
@@ -728,30 +733,33 @@ footer .s-address {
             <div class="col-lg-4 info mt-4 mt-lg-0" text-center>
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <div style="text-align: center;">
+              <div>
                 <a style="text-decoration: none; color: #fff" href="tel:+254794030408">+254 794030408</a>
                 <br/>	
-                <a style="text-decoration: none; color: #fff" href="tel:+020  440 2222">+020 4402222</a>	
+                <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a style="text-decoration: none; color: #fff" href="tel:020  440 2222">020 440 2222</a>	
                 <br/>
-                <a style="text-decoration: none; color: #fff" href="tel:+020  440 3333">+020 4403333</a>	
+                <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a style="text-decoration: none; color: #fff" href="tel:020  440 3333">020 440 3333</a>	
               </div>
             </div>
           </div>
         </div>
 
       </div>
+      <br/>
 
     </div>
 
-    <div class="row justify-content-center">
+
+    <div class="row justify-content-center" >
+    <br/>
       <div class="col-lg-10">
         <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
           <div class="row">
-            <div class="col-md-6 form-group">
+            <div class="col-md-6 form-group" style="padding-top: 10px;">
               <input type="hidden" name="_subject" value="Website Name - Zenith Contact Through Contact Form In Contact Page Of The Website - Response Submitted Through Contact Form">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
             </div>
-            <div class="col-md-6 form-group mt-3 mt-md-0">
+            <div class="col-md-6 form-group mt-3 mt-md-0" style="padding-top: 10px;">
               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
             </div>
           </div>
@@ -780,6 +788,11 @@ footer .s-address {
     </div>
 
 </section>
+
+<section>
+  
+
+        </section>
 
 </main><!-- End #main -->
 </div>

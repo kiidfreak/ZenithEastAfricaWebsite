@@ -6,20 +6,24 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="footer_logo">
                             <a href="index.php" class="mb-3 d-flex">
-                                <img src="img/ZenithLogo.png" alt="" width="170px;">
+                                <img src="img/ZenithTest2.png" alt="" width="170px;">
                             </a>
-                            <p>Zenith collaboratively works together to Ignite Change through Disruptive Thinking, Strategic Planning and Execution for Positive Impact.</p>
+                            <p>Zenith collaboratively works together to Ignite Change through:</p>
+                              <p> &gt; Disruptive Thinking</p>
+                              <p> &gt; Strategic Planning</p>
+                              <p> &gt; Execution for Positive Impact</p>
+
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <section id="nav_menu-2" class="widget widget_nav_menu">
-                            <h4 class="widget_title">Reach Out</h4>
+                            <h4 class="widget_title">Get in touch with us</h4>
                             <div class="contactsinfo" id="contacttext" style="color: #fff;">
                                 <span>Call us on:</span><br/><br/>
                                 <a style="color: #fff;" href="tel:+254794030408"> +254 794030408 </a><br/>
-                                <a style="color: #fff;" href="tel:+0204402222"> +020 4402222 </a><br/>
-                                <a style="color: #fff;" href="tel:+0204403333"> +020 4403333 </a><br/><br/>
+                                <a style="color: #fff;" href="tel:+0204402222"> 020 4402222 </a><br/>
+                                <a style="color: #fff;" href="tel:+0204403333"> 020 4403333 </a><br/><br/>
                                 <span>Email:</span><br/>
                                 <a style="color: #fff;" href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
                             </div>
@@ -28,13 +32,13 @@
                     
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <section class="form_widget">
-                            <h4 class="widget_title">subscribe</h4>
+                            <h4 class="widget_title">Subscribe</h4>
                             <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
                                 <input type="hidden" name="_next" value="Zenith - Promotional Emails">
                                 <div class="input-group mb-3">
                                     <input type="email" class="form-control" placeholder="Enter your email" required="">
                                     <span class="input-group-btn">
-                                        <button class="btn" title="submit" type=""><i class="far fa-envelope"></i></button>
+                                        <button class="btn" title="Submit" type=""><i class="far fa-envelope"></i></button>
                                     </span>
                                 </div>
                                 <p>Get latest updates about Zenith</p>
@@ -51,16 +55,17 @@
             <div class="copyright_row_wr">
                 <div class="socials">
                     <ul>
+                    <li>
+                            <a href="#" target="_blank" class="social-twitter-x">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
                         <li>
                             <a href="#" target="_blank" class="social-linkedin">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="#" target="_blank" class="social-twitter-x">
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="copyright">&copy; 2024 <a href="" target="_blank">Zenith East Africa</a></div>

@@ -57,7 +57,7 @@ a, a:hover, a:focus {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     text-decoration: none;
-	color: #d3af84;
+	color: #B2810B;
     outline: 0 solid transparent;
 } 
 
@@ -155,7 +155,7 @@ a, button {
 }
 
 .extra-small-icon li a i {
-    color: #d2ae83;
+    color: #B2810B;
 }
 
 .bar{
@@ -447,11 +447,11 @@ a, button {
 
 .small-menu a:hover {
     color: #fff !important;
-    background: #d3af84;
+    background: #B2810B;
 }
 
 .dropdown:hover .nav-link{
-  color:#d3af84!important;
+  color:#B2810B!important;
 }
 
 
@@ -485,7 +485,7 @@ a, button {
 }
 
 #select-office {
-    background-color: #d3af84;
+    background-color: #B2810B;
     border-radius: 0px;
     border: none;
     height: 47px;
@@ -494,7 +494,7 @@ a, button {
 }
 
 .stm-iconbox i {
-    color: rgb(208, 172, 130);
+    color: #B2810B;
     margin-right: 5px;
 }
 .stm-iconbox__text, .stm-iconbox__description {
@@ -549,7 +549,7 @@ a, button {
 }
 
 .navbar-nav .nav-item.active .nav-link {
-    color: #fff;
+    /* color: #fff; */
     font-weight: 600;
 }
 
@@ -1003,14 +1003,14 @@ background:url(./img/about-img.jpg);
 }
 
 .blogcolumn .blogcont .headingblog a:hover {
-    color: #d3af84;
+    color: #B2810B;
 }
 .blogcolumn .blogcont .headingblog  a:after {
     content: '';
     display: block;
     width: 25px;
     height: 2px;
-    background: #d3af84;
+    background: #B2810B;
     margin: 16px 0 0;
     border-radius: 0;
 }
@@ -1699,7 +1699,7 @@ footer .s-address {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0,0);
-    color: #d3af84;
+    color: #B2810B;
     font-size: 15px;
     position: absolute;
     left: 0;
@@ -1750,7 +1750,7 @@ background: #19beda;
     font-size: 16px;
     padding: 6px 13px;
     color: #fff;
-    background: #d3af84;
+    background: #B2810B;
     border-radius: 0px;
 }
 .mc4wp-form-fields .input-group input:focus{
@@ -1781,7 +1781,7 @@ font-weight:600;
     position: relative;
 }
 #footer .copyright_row .copyright_row_wr .copyright a {
-    color: #ff9416;
+    color: #B2810B;
 }
 #footer .copyright_row .copyright_row_wr .copyright {
     float: left;
@@ -1880,7 +1880,7 @@ a.blantershow-chat {
     display: block;
     width: 35px;
     height: 6px;
-    background: #d3af84;
+    background: #B2810B;
     border-radius: 3px;
     margin: 4px 0 0;
      margin-left: auto;
@@ -1903,6 +1903,7 @@ a.blantershow-chat {
 	vertical-align: bottom;
 	transition: all .3s ease;
     text-align: center;
+    top: -22px;
 }
 
 .we-do-item:hover {
@@ -1917,7 +1918,7 @@ a.blantershow-chat {
     left: 35px;
     width: 6px;
 	top: -9px;
-   background: #d3af84;
+   background: #B2810B;
     height: 0;
     transition: all .3s ease;
 }
@@ -1964,7 +1965,7 @@ a.blantershow-chat {
 	transform-origin:top;
     width: 6px;
 	bottom:-6px;
-    background: #d3af84;
+    background: #B2810B;
     height: 0;
     transition: all .3s ease;
 }
@@ -2017,7 +2018,7 @@ a.blantershow-chat {
 
 .vc_custom_heading h4 mark {
     background: 0 0;
-    color: #d3af84;
+    color: #B2810B;
 }
 
 .vc_custom_heading h4 {
@@ -2030,7 +2031,7 @@ a.blantershow-chat {
     width: 35px;
     margin: 8px auto;
     height: 6px;
-    background: #d3af84;
+    background: #B2810B;
     border-radius: 3px;
 }
 
@@ -2314,7 +2315,7 @@ a.blantershow-chat {
 
 #main #faq .card .card-header .btn-header-link.collapsed:after {
   content: "\f106";
-   color: #d3af84;
+   color: transparent;
 }
 
 #main #faq .card .collapsing {
