@@ -7,7 +7,7 @@
    }
    .img-fluid {
       max-width: 100%;
-      height: 60px;
+      height: 75px;
    }
    </style>
 
@@ -58,19 +58,19 @@ Africa Group</a>
             </div>
          </div>
          <div class="col-md-3 wow-outer">
-            <!-- <div class="blogcolumn wow slideInRight"  data-wow-delay=".6s">
+            <div class="blogcolumn wow slideInRight"  data-wow-delay=".6s">
                <div class="imgtop">
-                  <img src="img/blog/travel.jpg" alt="" class="w-gallery-image">
-                  <span class="tag">
+                  <img src="img/blog/superbrands.png" alt="" class="w-gallery-image">
+                  <!-- <span class="tag">
                   Innovation
-                  </span>
+                  </span> -->
                </div>
                <div class="blogcont">
                   <div class="headingblog">
-                     <a href="#">Strategic and commercial policies updates</a>
+                     <a href="https://www.facebook.com/Superbrandseastafricaofficial/photos/a.154835944561584/6459306360781146/?type=3" target="_blank">Superbrands Leading Women</a>
                   </div>
                </div>
-            </div> -->
+            </div>
          </div>
          <div class="col-md-3 wow-outer">
             <!-- <div class="blogcolumn wow slideInRight"  data-wow-delay=".6s">

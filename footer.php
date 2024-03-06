@@ -1,82 +1,62 @@
 <footer id="footer" class="footer style_1">
-    <div class="widgets_row">
-        <div class="container">
-            <div class="footer_widgets">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="footer_logo">
-                            <a href="index.php" class="mb-3 d-flex">
-                                <img src="img/ZenithTest2.png" alt="" width="170px;">
-                            </a>
-                            <p>Zenith collaboratively works together to Ignite Change through:</p>
-                              <p> &gt; Disruptive Thinking</p>
-                              <p> &gt; Strategic Planning</p>
-                              <p> &gt; Execution for Positive Impact</p>
-
+   <div class="widgets_row">
+      <div class="container">
+         <div class="footer_widgets">
+            <div class="row">
+               <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="footer_logo text-center">
+                     <a href="index.php" class="mb-3 d-flex justify-content-center align-items-center">
+                     <img src="img/ZenithTest3.png" alt="" width="170px;">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-12">
+                  <!-- Subscribe Form -->
+                  <section class="form_widget">
+                     <h4 class="widget_title">Subscribe</h4>
+                     <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
+                        <input type="hidden" name="_next" value="Zenith - Promotional Emails">
+                        <div class="input-group mb-3">
+                           <input type="email" class="form-control" placeholder="Enter your email" required="">
+                           <span class="input-group-btn">
+                           <button class="btn" title="Submit" type=""><i class="far fa-envelope"></i></button>
+                           </span>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <section id="nav_menu-2" class="widget widget_nav_menu">
-                            <h4 class="widget_title">Get in touch with us</h4>
-                            <div class="contactsinfo" id="contacttext" style="color: #fff;">
-                                <span>Call us on:</span><br/><br/>
-                                <a style="color: #fff;" href="tel:+254794030408"> +254 794030408 </a><br/>
-                                <a style="color: #fff;" href="tel:+0204402222"> 020 4402222 </a><br/>
-                                <a style="color: #fff;" href="tel:+0204403333"> 020 4403333 </a><br/><br/>
-                                <span>Email:</span><br/>
-                                <a style="color: #fff;" href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <section class="form_widget">
-                            <h4 class="widget_title">Subscribe</h4>
-                            <form action="https://formsubmit.co/imaina671@gmail.com" method="POST" role="form" class="php-email-form">
-                                <input type="hidden" name="_next" value="Zenith - Promotional Emails">
-                                <div class="input-group mb-3">
-                                    <input type="email" class="form-control" placeholder="Enter your email" required="">
-                                    <span class="input-group-btn">
-                                        <button class="btn" title="Submit" type=""><i class="far fa-envelope"></i></button>
-                                    </span>
-                                </div>
-                                <p>Get latest updates about Zenith</p>
-                            </form>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="copyright_row">
-        <div class="container">
-            <div class="copyright_row_wr">
-                <div class="socials">
-                    <ul>
-                    <li>
-                            <a href="#" target="_blank" class="social-twitter-x">
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
+                        <p>Get latest updates about Zenith</p>
+                     </form>
+                  </section>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-6">
+                  <!-- Social Icons -->
+                  <div class="socials text-center">
+                     <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; color:white">
+                        <li style="margin-right: 25px;" >
+                           <a href="#" target="_blank" class="social-twitter-x">
+                           <i class="fa-brands fa-x-twitter"></i>
+                           </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank" class="social-linkedin">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
+                           <a href="#" target="_blank" class="social-linkedin">
+                           <i class="fa-brands fa-linkedin-in"></i>
+                           </a>
                         </li>
-
-                    </ul>
-                </div>
-                <div class="copyright">&copy; 2024 <a href="" target="_blank">Zenith East Africa</a></div>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
+   <div class="copyright_row">
+      <div class="container">
+         <div class="copyright_row_wr">
+            <div class="copyright">&copy; 2024 <a href="" target="_blank">Zenith East Africa. All rights reserved.</a></div>
+         </div>
+      </div>
+   </div>
 </footer>
-
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
 <i class="fas fa-long-arrow-alt-up"></i></a>
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -86,75 +66,69 @@
 <script src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
-
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-      <!-- word splitter js -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/jquery.gsap.min.js" integrity="sha512-K43Gi6p1AN9cBmgnY3XE1ii0wc2Rl4dArjMgYeXpYmLSZGA7jXWcX4Drj52m2K9js6qHSRQoYlKyO4sSr3nbSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      
+<!-- word splitter js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/jquery.gsap.min.js" integrity="sha512-K43Gi6p1AN9cBmgnY3XE1ii0wc2Rl4dArjMgYeXpYmLSZGA7jXWcX4Drj52m2K9js6qHSRQoYlKyO4sSr3nbSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-/**
-   * Easy selector helper function
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
-    }
-  }
-
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
-    }
-  }
-
-  </script>
-
-<script>
-    $(document).ready(function () {
-        // Hover event for top-level dropdowns
-        $(".nav-item.dropdown").mouseenter(function () {
-            if (!$(this).hasClass('show')) {
-                $(this).addClass("show");
-                $(this).find('.dropdown-menu').first().addClass("show");
-            }
-        });
-
-        $(".nav-item.dropdown").mouseleave(function () {
-            if ($(this).hasClass('show')) {
-                $(this).removeClass("show");
-                $(this).find('.dropdown-menu').removeClass("show");
-            }
-        });
-
-        // Hover event for sub-dropdowns
-        $(".nav-item.dropdown-submenu").mouseenter(function () {
-            $(this).parent('.nav-item.dropdown').addClass("show");
-            $(this).find('.dropdown-menu').addClass("show");
-        });
-
-        $(".nav-item.dropdown-submenu").mouseleave(function () {
-            $(this).parent('.nav-item.dropdown').removeClass("show");
-            $(this).find('.dropdown-menu').removeClass("show");
-        });
-    });
+   /**
+      * Easy selector helper function
+      */
+     const select = (el, all = false) => {
+       el = el.trim()
+       if (all) {
+         return [...document.querySelectorAll(el)]
+       } else {
+         return document.querySelector(el)
+       }
+     }
+   
+     /**
+      * Easy event listener function
+      */
+     const on = (type, el, listener, all = false) => {
+       let selectEl = select(el, all)
+       if (selectEl) {
+         if (all) {
+           selectEl.forEach(e => e.addEventListener(type, listener))
+         } else {
+           selectEl.addEventListener(type, listener)
+         }
+       }
+     }
+   
+     
 </script>
-
-
-
-
+<script>
+   $(document).ready(function () {
+       // Hover event for top-level dropdowns
+       $(".nav-item.dropdown").mouseenter(function () {
+           if (!$(this).hasClass('show')) {
+               $(this).addClass("show");
+               $(this).find('.dropdown-menu').first().addClass("show");
+           }
+       });
+   
+       $(".nav-item.dropdown").mouseleave(function () {
+           if ($(this).hasClass('show')) {
+               $(this).removeClass("show");
+               $(this).find('.dropdown-menu').removeClass("show");
+           }
+       });
+   
+       // Hover event for sub-dropdowns
+       $(".nav-item.dropdown-submenu").mouseenter(function () {
+           $(this).parent('.nav-item.dropdown').addClass("show");
+           $(this).find('.dropdown-menu').addClass("show");
+       });
+   
+       $(".nav-item.dropdown-submenu").mouseleave(function () {
+           $(this).parent('.nav-item.dropdown').removeClass("show");
+           $(this).find('.dropdown-menu').removeClass("show");
+       });
+   });
+</script>
 <script>
    $(document).ready(function($) {
         var $element = $('.counter');

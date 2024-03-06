@@ -7,35 +7,52 @@
    }
    .img-fluid {
       max-width: 100%;
-      height: 60px;
+      height: 75px;
    }
    </style>
 
 <div class="slider-section">
+   
    <!-- revolution slider -->
    <section class="no-top no-bottom" aria-label="section-slider">
-      <!-- home -->
+
+   <!-- home -->
       <div class="fullwidthbanner-container">
          <div id="revolution-slider-half">
+            
             <ul>
+               
                <li data-transition="random" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
+
                   <!--  BACKGROUND IMAGE -->
                      <img src="img/slider/slider4.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+                     
 
                      <div class="tp-caption slide-big-heading sft" 
+                     
                               data-x="50%" 
                               data-y="130" 
                               data-speed="800" 
                               data-start="400" 
                               data-easing="easeInOutExpo" 
                               data-endspeed="450"
-                              style="text-align: center; display: flex; align-items: center; justify-content: center; padding-left:19%">
+                              style="text-align: center; display: flex; align-items: center; justify-content: center; padding-left:20%; padding-top:360px;">
+                              
                            <span id="strategy" style="color:#B2810B;"></span>
                            <span id="arrow1" class="arrow" style="opacity: 0;">&gt;</span>
                            <span id="execution"></span>
                            <span id="arrow2" class="arrow" style="opacity: 0;">&gt;</span>
                            <span id="outcomes" style="color:#B2810B;"></span>
+
+
+                           
                      </div>
+
+                     
+
+                     <br/>
+                           <h2 id="introtitle" style="top: 8%;position: absolute;color: #fff;font-size: 35px; z-index: 100;justify-content: left;display: flex;padding-left: 50px;" >Building impactful businesses<br/> and brands across Africa
+</h2>
 
 
                         <script>  gsap.registerPlugin(TextPlugin);
@@ -84,14 +101,15 @@
                            masterTimeline.add(blinkTimeline);
                            </script>
 
-<div class="tp-caption btn-slider sfb"
+
+<!-- <div class="tp-caption btn-slider sfb"
    data-x="center"
    data-y="300"
    data-speed="400"
    data-start="800"
    data-easing="easeInOutExpo">
    <span class="shine"></span><a href="#services" onclick="navigateToSection()">More Detail</a>
-</div>
+</div> -->
 
 <script>
    function navigateToSection() {
@@ -116,8 +134,8 @@
       <div class="row">
          <div class="col-md-12">
             <div class="vc_custom_heading text_align_center">
-               <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
-                  class="consulting-custom-title">In today’s<mark>rapidly evolving economic and business landscape, </mark>it is imperative for organizations to adopt a broader comprehensive approach that effectively meets the <mark>continually evolving needs and priorities</mark> of their consumers and stakeholders.</h4>
+               <h4 style="font-size: 28px;color: #B2810B;line-height: 34px;text-align: center"
+                  class="consulting-custom-title">In today’s rapidly evolving economic and business landscape, it is imperative for organizations to adopt a broader comprehensive approach that effectively meets the continually evolving needs and priorities of their consumers and stakeholders.</h4>
             </div>
          </div>
       </div>
@@ -125,6 +143,91 @@
 </section>
 
 <div id="services">
+<section class="service what-bg">
+<br/>
+   <br/>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="about-info sec-padd text-center mb-5">
+               <div class="section-title">
+                  <h2>What we Offer</h2>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-bullseye"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Brand Strategy</h4>
+                  <!-- <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class=" col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-bullhorn"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Advertising</h4>
+                  <!-- <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-microphone"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Public Relations</h4>
+                  <!-- <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-tty"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Development Communication</h4>
+                  <!-- <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-comments"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Investor Advisory</h4>
+                  <!-- <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item">
+               <div class="we-icon">
+               <i class="fa-solid fa-seedling"></i>
+               </div>
+               <div class="we-desc">
+                  <h4 class="we-title">Sustainable Communication & ESG Reporting</h4>
+                  <!-- <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p> -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+</div>
+
+
+<!-- <div id="services">
 <section class="service what-bg">
 <br/>
    <br/>
@@ -143,9 +246,9 @@
                   <i class="fa-solid fa-money-bill"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">For-Profit Businesses</h4>
+                  <h4 class="we-title">For-Profit Businesses</h4> -->
                   <!-- <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
          <div class=" col-md-4 col-sm-6 col-xs-12">
@@ -154,9 +257,9 @@
                   <i class="fa-solid fa-globe"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">Non-Profit Organisations</h4>
+                  <h4 class="we-title">Non-Profit Organisations</h4> -->
                   <!-- <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
          <div class="col-md-4 col-sm-6 col-xs-12">
@@ -165,9 +268,9 @@
                   <i class="fa-solid fa-person-military-to-person"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">Civil Society Actors</h4>
+                  <h4 class="we-title">Civil Society Actors</h4> -->
                   <!-- <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
          <div class="col-md-4 col-sm-6 col-xs-12">
@@ -176,9 +279,9 @@
                   <i class="fa-solid fa-business-time"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">Social Profit Enterprises</h4>
+                  <h4 class="we-title">Social Profit Enterprises</h4> -->
                   <!-- <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
          <div class="col-md-4 col-sm-6 col-xs-12">
@@ -187,9 +290,9 @@
                   <i class="fa-solid fa-microphone"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">Public Authorities</h4>
+                  <h4 class="we-title">Public Authorities</h4> -->
                   <!-- <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
          <div class="col-md-4 col-sm-6 col-xs-12">
@@ -198,17 +301,30 @@
                   <i class="fa-solid fa-earth-africa"></i>
                </div>
                <div class="we-desc">
-                  <h4 class="we-title">And so much more..</h4>
+                  <h4 class="we-title">And so much more..</h4> -->
                   <!-- <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p> -->
-               </div>
+               <!-- </div>
             </div>
          </div>
       </div>
    </div>
 </section>
-</div>
+</div> -->
 
-<div id="about-us">
+<section class="parallax-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="vc_custom_heading text_align_center">
+               <h4 style="font-size: 28px;color: #B2810B;line-height: 34px;text-align: center"
+                  class="consulting-custom-title">Our commitment is grounded in the belief that the coexistence of profitable enterprises, while being a force for good in our society is not just a possibility but a business imperative.
+               </h4>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<!-- <div id="about-us">
     <section class="about-faq sec-padd py-5">
         <div class="container">
             <div class="section-title text-center mb-5">
@@ -238,9 +354,75 @@
             </div>
         </div>
     </section>
+</div> -->
+
+
+<br/>
+   <br/>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item1">
+               <div class="we-icon1">
+               <i class="fa-solid fa-people-group" style="color:white"></i>
+               </div>
+               <div class="we-desc1">
+                  <h4 class="we-title1">People</h4>
+                  <!-- <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class=" col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item1">
+               <div class="we-icon1">
+               <i class="fa-solid fa-brain" style="color:white"></i>
+               </div>
+               <div class="we-desc1">
+                  <h4 class="we-title1">Practice</h4>
+                  <!-- <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item1">
+               <div class="we-icon1">
+               <i class="fa-solid fa-chart-simple" style="color:white"></i>
+               </div>
+               <div class="we-desc1">
+                  <h4 class="we-title1">Perfomance</h4>
+                  <!-- <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="row justify-content-center" style="width: 100%;">
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item1">
+               <div class="we-icon1">
+               <i class="fa-solid fa-earth-africa" style="color:white"></i>
+               </div>
+               <div class="we-desc1">
+                  <h4 class="we-title1">Planet</h4>
+                  <!-- <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p> -->
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="we-do-item1">
+               <div class="we-icon1">
+               <i class="fa-solid fa-group-arrows-rotate" style="color:white"></i>
+               </div>
+               <div class="we-desc1">
+                  <h4 class="we-title1">Impact</h4>
+                  <!-- <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p> -->
+               </div>
+            </div>
+         </div>
 </div>
+         </div>
+      </div>
+   </section>
 
-
+<!-- 
 
 <div class="fun-facts pt-70 pb-100">
    <div class="container">
@@ -287,234 +469,21 @@
          </div>
       </div>
    </div>
-</div>
+</div> -->
 
 
-   <div id="about-us">
-<section class="about-faq sec-padd py-5">
 
-   <div class="container">
-      <div class="section-title text-center mb-5">
-         <br/>
-         <br/>
-         <br/>
-         
-         <h2>About us</h2>
-      </div>
-      <div class="row">
-         <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="about-info">
-               <h4>Zenith East Africa is a Strategic C-Suite Advisory Firm offering discerning clients with specialist services.</h4>
-               <br>
-               <div class="text">
-                  <p>At our core, we fervently believe in the harmonious
-                     coexistence of profitability and social good. Grounded in
-                     people-centric principles, we wholeheartedly adopt
-                     practices that generate value for our stakeholders.
-                  </p>
-               </div>
-               <div class="link_btn d-flex flex-wrap justify-content-center">
-    <span class="mx-2" style="color:#8f7e5d">People</span>
-    <span class="mx-2" style="color:#4db0e2">Practice</span>
-    <span class="mx-2" style="color:#951c8a">Performance</span>
-    <span class="mx-2" style="color:#e7a520">Planet</span>
-    <span class="mx-2" style="color:#008d3d">Impact</span>
-</div>
-
-               <div class="text">
-                  <p style="text-align:center" >
-                     <br/>
-                  Our purpose is in achieving
-                  business profitably, while being a
-                  force for good in our society.
-                  </p>
-               </div>
-
-               <style>
-    .link_btn {
-        display: flex;
-        justify-content: center;
-        gap: 20px; /* Adjust the gap as needed */
-    }
-
-    .link_btn span {
-        cursor: pointer;
-    }
-
-    /* CSS for the drop-down icons */
-.btn-header-link .fa-chevron-down {
-    display: none;
-}
-
-.btn-header-link.collapsed .fa-chevron-up {
-    display: none;
-}
-
-.btn-header-link.collapsed .fa-chevron-down {
-    display: inline;
-}
-.chevron-icons {
-    float: right;
-}
-</style>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<!-- Add this script in your HTML file -->
-<script>
-    $(document).ready(function () {
-        $('.btn-header-link').click(function () {
-            // Toggle the chevron icon based on the collapse state
-            var chevronUp = $(this).find('.fa-chevron-up');
-            var chevronDown = $(this).find('.fa-chevron-down');
-            
-            if ($(this).hasClass('collapsed')) {
-                chevronUp.show();
-                chevronDown.hide();
-            } else {
-                chevronUp.hide();
-                chevronDown.show();
-            }
-        });
-    });
-</script>
-
-
-            </div>
-         </div>
-         <div class="col-md-6 col-sm-12 col-xs-12">
-            <div id="main">
-               <div class="accordion" id="faq">
-                  <div class="card">
-
-                     <div class="card-header" id="faqhead1">
-                     <a href="#" class="btn-header-link text-truncated collapsed" data-toggle="collapse" data-target="#faq1"
-                        aria-expanded="false" aria-controls="faq1">
-                        Why we do it?
-                        <span class="chevron-icons">
-                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
-                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
-                        </span>
-                     </a>
-                     </div>
-
-                     <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
-                        <div class="card-body">
-                        Our commitment is grounded in the belief that the coexistence of profitable enterprises, while being a force for good in our society is not just a possibility but a business imperative.
-                        </div>
-                     </div>
-                  </div>
-                  <div class="card">
-                     <div class="card-header" id="faqhead2">
-                        <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq2"
-                           aria-expanded="true" aria-controls="faq2">How we do it?
-                           <span class="chevron-icons">
-                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
-                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
-                        </span>
-                        </a>
-                     </div>
-                     <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
-                        <div class="card-body"> 
-                        With each project, our disruptive thinking cuts through the noise, uncovers valuable insights, enabling us to  create strategies and communication that establish  stronger connections between businesses, brands  and their stakeholders.
-
-                        </div>
-                     </div>
-                  </div>
-                  <div class="card">
-                     <div class="card-header" id="faqhead3">
-                        <a href="#" class=" btn-header-link text-wrap collapsed" data-toggle="collapse" data-target="#faq3"
-                           aria-expanded="true" aria-controls="faq3">What differentiates us?
-                           <span class="chevron-icons">
-                           <i class="fas fa-chevron-up"></i> <!-- Icon when collapsed -->
-                           <i class="fas fa-chevron-down"></i> <!-- Icon when uncollapsed -->
-                        </span>
-                        </a>
-                     </div>
-                     <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
-                        <div class="card-body">
-                        Our team not only delivers exceptional work but also takes pride in building and sustaining strong relationships anchored on professionalism and continuous value creation. <br/> <br/>
-                        This commitment extends to building, positioning and protecting the reputation of brands, enterprises and teams.
-
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <br/>
-   <br/>
-</section>
-</div>
-
-<section class="parallax-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="vc_custom_heading text_align_center">
-               <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
-                  class="consulting-custom-title">If it did not push the dial, it did not happen. <mark>Our measure</mark> of great work <mark>is assessed</mark> through the lenses of <mark>clear</mark> and <mark>quantifiable business </mark>and <mark>social impact outcomes.</mark></h4>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
 
 <div id=our-clients>
+   <br/>
+   <br/>
 
-   <div class="about-info sec-padd text-center mb-5">
-      <!-- <div class="section-title">
-         <h2></h2>
-      </div> -->
-   </div>
-
-
-<!-- <section class="client-section">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="client-outer">
-               <div class="slick-slider client-slider">
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft"  data-wow-delay=".1s">
-                        <img src="img/client/1.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft"  data-wow-delay=".3s">
-                        <img src="img/client/2.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft" data-wow-delay=".5s">
-                        <img src="img/client/3.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft" data-wow-delay=".9s">
-                        <img src="img/client/5.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft" data-wow-delay=".10s">
-                        <img src="img/client/6.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-                  <div class="wow-outer">
-                     <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/7.png" class="img-fluid" alt="Imageteam">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+   <div class="about-info sec-padd text-center mb-5" style="margin-bottom: 0 !important;">
+      <div class="section-title">
+         <h2>Clients</h2>
       </div>
-      <br>
-   <br>
    </div>
-</section> -->
+
 
 <section class="client-section">
    <div class="container">
@@ -522,6 +491,22 @@
          <div class="col-md-12">
             <div class="client-outer">
                <div class="slick-slider client-slider">
+
+               <div class="item wow slideInLeft" data-wow-delay=".1s">
+                     <img src="img/client/dow.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
+                  </div>
+
+                  <div class="item wow slideInLeft" data-wow-delay=".1s">
+                     <img src="img/client/kh.jpeg" class="img-fluid1" alt="Imageteam">
+                  </div>
+
+                  <div class="item wow slideInLeft" data-wow-delay=".1s">
+                     <img src="img/client/unityhomes.jpeg" class="img-fluid1" alt="Imageteam">
+                  </div>
+
+                  <div class="item wow slideInLeft" data-wow-delay=".1s">
+                     <img src="img/client/weston.png" class="img-fluid1" alt="Imageteam">
+                  </div>
 
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
                      <img src="img/client/a.png" class="img-fluid1" alt="Imageteam">
@@ -634,7 +619,7 @@
 </script>
 
 
-<section class="parallax-bg">
+<!-- <section class="parallax-bg">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -645,7 +630,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
 <div id="blog">
    <!-- <br>

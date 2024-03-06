@@ -78,7 +78,24 @@
                                         awards from the Grand Prix - Kenya’s first and only at the Loeries Awards – Africa
                                         Chapter, Gold Loeries, APA awards just to name a few.
                                     </p>
-                                    <!-- Add more content as needed -->
+                                    <p>
+                                        Esther has an MBA from University of Leicester (United Kingdom) and is the Second Woman in sub-Saharan
+                                        Africa to be bestowed with the highest and prestigious Fellow (FCIM) status by the Chartered Institute of
+                                        Marketing (CIM) United Kingdom, for her strategic leadership and marketing role in the growth of key brands in
+                                        Kenya and beyond. She has also been listed among the 25 Most Influential C-Suite CEO’s Impacting Business in
+                                        Kenya in 2020 and Top 25 Most Influential Women in Marketing Impacting Business in 2022 in the Business
+                                        Monthly Magazine.
+                                    </p>
+                                    <p>
+                                        She serves on the board of Super Brands (East Africa), the world’s largest independent arbiter of branding, which
+                                        identifies and pays tribute to exceptional brands by recognizing, rewarding and reinforcing leading brands from all
+                                        over the world, and is a member of KEPSA (Kenya Private Sector Alliance) and Women Corporate Directors
+                                        (WCD Kenya Chapter), the world's largest membership organization and community of women corporate board
+                                        directors. Previously, she has served as a Board Member and Trustee of JOYWO (Joyful Women Organisation) a
+                                        Foundation that focuses on financial inclusion and empowerment of women in Kenya; Palmhouse Foundation, an
+                                        Education Trust that has shaped the lives of more than 1,000 bright and needy secondary school young students,
+                                        as well as Rotary Club of Nairobi North.
+                                    </p>
                                 </div>
 
                                 <!-- Button to trigger the collapse -->
@@ -219,13 +236,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Add more team members as needed -->
+                        <!- Add more team members as needed -->
                     <!-- </div>
                 </div>
             </div>
         </div>
     </section>
-</div> --> -->
+</div> --> 
 
 
     <?php include("footer.php"); ?>

@@ -8,7 +8,6 @@
       <title>Zenith</title>
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      
       <!----css3---->
       <link rel="stylesheet" href="css/custom.css">
       <link rel="stylesheet" href="font/flaticon.css">
@@ -34,7 +33,6 @@
       <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
       <link rel="manifest" href="img/favicons/site.webmanifest">
-
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <!-- fontawesome js -->
       <script src="https://kit.fontawesome.com/0c3d8da444.js" crossorigin="anonymous"></script>
@@ -46,179 +44,111 @@
    </head>
    <body>
       <div class="header" id="header">
-         <div class="info-bar d-lg-block d-none d-md-none">
-            <div class="container">
-               <div class="row d-flex align-items-center">
-                  <div class="col-lg-10 col-md-12">
-                     <div class="header-box d-flex flex-row justify-content-end">
-                        <div class="location-div header-item">
-                           <div class="stm-iconbox d-flex align-items-center">
-                              <i class="fas fa-map-marker-alt"></i>
-                              <div class="stm-iconbox__info">
-                                 <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    <a href="https://maps.app.goo.gl/V3FJHhydyCB7AfTGA">G34 Delamere Flats	</a>			
-                                 </div>
-                                 <div class="stm-iconbox__description">
-                                    Milimani Rd, Nairobi  KE.				
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="location-div header-item" style="align-content: center;display: grid;" >
-                           <div class="stm-iconbox  d-flex align-items-center">
-                              <i class="far fa-clock"></i>
-                              <div class="stm-iconbox__info">
-                                 <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                    Monday - Friday <br/>8:00AM - 5:00PM				
-                                 </div>
-                                 <!-- <div class="stm-iconbox__description">
-                                    Sunday CLOSED				
-                                 </div> -->
-                              </div>
-                           </div>
-                        </div>
-                        <div class="location-div header-item">
-                           <div class="stm-iconbox d-flex align-items-center">
-                              <i class="fas fa-phone"></i>
-                              <div class="stm-iconbox__info">
-                                 <div class="stm-iconbox__text stm-iconbox__text_nomargin">
-                                 <a href="mailto:info@zenitheastafrica.com">info@zenitheastafrica.com</a>		
-                                 </div>
-                                 <div class="stm-iconbox__description">
-                                 <a href="tel:+254794030408">+254 794030408</a>
-                                 <span>/</span>	
-                                 <a href="tel:+0204402222">020 4402222</a>	
-                                 <span>/</span>
-                                 <a href="tel:+0204403333">020 4403333</a>	
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-3">
-                     <div class="select-section">
-                        <div class="form-group m-0">
-                           <select id="select-office" class="form-control">
-                              <option selected>Nairobi office</option>
-                              <!-- <option>Delhi Office</option> -->
-                           </select>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
          <div class="navigation" id="navigation">
             <div class="header-inner" id="header-inner">
                <div class="container">
-
-
-
-<style>
-    /* Style for the default state of the nested dropdown menu */
-    .nav-item.dropdown .dropdown-menu.small-menu {
-        display: none; /* Hide the nested dropdown menu by default */
-        position: absolute;
-        top: 100%;
-        left: 0;
-        margin-top: 0; /* Adjust the top margin if needed */
-        border-radius: 0; /* Optionally remove border-radius for a cleaner look */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
-    }
-
-    /* Show the nested dropdown menu on hover for the "Business Design & Brand Strategy" dropdown */
-    .nav-item.dropdown:hover .dropdown-menu.small-menu {
-        display: block;
-    }
-
-    /* Style for the nested dropdown items */
-    .nav-item.dropdown .dropdown-menu.small-menu a {
-        padding: 8px 15px; /* Adjust padding for nested dropdown items */
-        white-space: nowrap; /* Prevent line breaks in menu items */
-        color: #fd9b28;
-        font-family: Open Sans, Arial;
-        font-weight: 500;
-        font-size: 13px;
-        background: #ffffff;
-        border-bottom: 1px groove rgba(0, 0, 0, .1);
-        box-shadow: 5px 5px 2px rgb(23 36 52 / 5%);
-        transition: 0.5s ease;
-        word-wrap: break-word;
-        
-    }
-
-    .dropdown-item {
-      color: #fd9b28;
-      text-decoration: none;
-      font-weight: 400;
-      border-bottom: 1px solid rgba(0, 0, 0, .1);
-    }
-
-    .dropdown-item:active {
-    color: #fd9b28;
-    text-decoration: none;
-    background-color: #fd9b28;
-}
-
-    .dropdown-item:hover {
-    color: #fd9b28;
-    text-decoration: none;
-    background-color: #fd9b28;
-}
-/* Style for the active state of dropdown items */
-.nav-item.dropdown .dropdown-menu.small-menu a:hover {
-    background-color: #FD9B28 !important; /* Update to the desired hover color */
-}
-
-
-    /* Style for the dropdown-submenu */
-    .nav-item.dropdown-submenu .dropdown-menu {
-        top: 0;
-        left: 100%;
-        margin-top: 0;
-        border-radius: 1;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        word-wrap: break-word;
-    }
-
-.client-slider {
-  width: 100%; /* Adjust as needed */
-  height: 300px; /* Set a fixed height for the container, adjust as needed */
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.client-slider img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain; /* This property maintains the aspect ratio and contains the image within the container */
-  padding: 10px; /* Adjust the padding value as needed */
-  box-sizing: border-box; /* Include padding in the total width and height of the image */
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the opacity (0.5) as needed */
-  pointer-events: none; /* Allow interaction with the images beneath the overlay */
-}
-
-
-
-</style>
-
-
-
-
-
+                  <style>
+                     /* Style for the default state of the nested dropdown menu */
+                     .nav-item.dropdown .dropdown-menu.small-menu {
+                     display: none; /* Hide the nested dropdown menu by default */
+                     position: absolute;
+                     top: 100%;
+                     left: 0;
+                     margin-top: 0; /* Adjust the top margin if needed */
+                     border-radius: 0; /* Optionally remove border-radius for a cleaner look */
+                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+                     }
+                     /* Show the nested dropdown menu on hover for the "Business Design & Brand Strategy" dropdown */
+                     .nav-item.dropdown:hover .dropdown-menu.small-menu {
+                     display: block;
+                     }
+                     /* Style for the nested dropdown items */
+                     .nav-item.dropdown .dropdown-menu.small-menu a {
+                     padding: 8px 15px; /* Adjust padding for nested dropdown items */
+                     white-space: nowrap; /* Prevent line breaks in menu items */
+                     color: #fd9b28;
+                     font-family: Open Sans, Arial;
+                     font-weight: 500;
+                     font-size: 13px;
+                     background: #ffffff;
+                     border-bottom: 1px groove rgba(0, 0, 0, .1);
+                     box-shadow: 5px 5px 2px rgb(23 36 52 / 5%);
+                     transition: 0.5s ease;
+                     word-wrap: break-word;
+                     }
+                     .dropdown-item {
+                     color: #fd9b28;
+                     text-decoration: none;
+                     font-weight: 400;
+                     border-bottom: 1px solid rgba(0, 0, 0, .1);
+                     }
+                     .dropdown-item:active {
+                     color: #fd9b28;
+                     text-decoration: none;
+                     background-color: #fd9b28;
+                     }
+                     .dropdown-item:hover {
+                     color: #fd9b28;
+                     text-decoration: none;
+                     background-color: #fd9b28;
+                     }
+                     /* Style for the active state of dropdown items */
+                     .nav-item.dropdown .dropdown-menu.small-menu a:hover {
+                     background-color: #FD9B28 !important; /* Update to the desired hover color */
+                     }
+                     /* Style for the dropdown-submenu */
+                     .nav-item.dropdown-submenu .dropdown-menu {
+                     top: 0;
+                     left: 100%;
+                     margin-top: 0;
+                     border-radius: 1;
+                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                     word-wrap: break-word;
+                     }
+                     .client-slider {
+                     width: 100%; /* Adjust as needed */
+                     height: 300px; /* Set a fixed height for the container, adjust as needed */
+                     overflow: hidden;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     }
+                     .client-slider img {
+                     max-width: 100%;
+                     max-height: 100%;
+                     object-fit: contain; /* This property maintains the aspect ratio and contains the image within the container */
+                     padding: 10px; /* Adjust the padding value as needed */
+                     box-sizing: border-box; /* Include padding in the total width and height of the image */
+                     }
+                     .overlay {
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     width: 100%;
+                     height: 100%;
+                     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the opacity (0.5) as needed */
+                     pointer-events: none; /* Allow interaction with the images beneath the overlay */
+                     }
+                     /* .img-fluid1 {
+                     max-width: 100%;
+                     height: auto
+                     }
+                     .img-fluid {
+                     max-width: 100%;
+                     height: 75px;
+                     } */
+                  </style>
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
-                     <a class="navbar-brand" href="index.php"><img src="img/ZenithTest2.png" class="img-fluid"/></a>
+                     <div style="display: flex; align-items: center;">
+                        <a class="navbar-brand" href="index.php" style="margin-right: 10px;">
+                        <img src="img/Zenith4.png" class="img-fluid" alt="Your Alt Text Here"/>
+                        </a>
+                        <div style="font-family: 'Montserrat', sans-serif;">
+                           <p style="font-weight: 900; color: white; font-size: 30px; padding-top: 20px; line-height: 0; letter-spacing: 5px;">Zenith<br/></p>
+                           <p style="color: white; font-size: 13px; line-height: 1.5; letter-spacing: 0.5px;"> East Africa Limited<br/></p>
+                           <p style="color: white; font-size: 10px; line-height: 0; letter-spacing: 2px; text-align: end;">| Advisory Services</p>
+                        </div>
+                     </div>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
                      <span></span>
@@ -229,64 +159,58 @@
                            <li class="nav-item active">
                               <a class="nav-link " href="index.php">Home</a>
                            </li>
-                           <!-- <li class="nav-item">
-                              <a class="nav-link" href="/#about-us">About us</a>
-                           </li> -->
-
+                           <li class="nav-item active">
+                              <a style class="nav-link " href="about-us.php" role="button">About Us</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="/contact.php">Get in Touch</a>
+                           </li>
                            <li class="nav-item dropdown" id="servicesDropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Services</a>
-                              <ul class="dropdown-menu">
-
-
-                                 <li class="nav-item dropdown-submenu">
-                                       <a class="nav-link dropdown-toggle" href="#">Business Design &amp; Brand Strategy</a>
-                                       <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" >Brand Development</a></li>
-                                          <li><a class="dropdown-item" >Brand Purpose Positioning + Expressions</a></li>
-                                          <li><a style="white-space:break-spaces" class="dropdown-item" >Growth, Brand + Brand/Customer Experience Innovation</a></li>
-                                       </ul>
+                              <a style="cursor: pointer;" class="nav-link " role="button" data-toggle="dropdown">
+                                 <!-- Replace "Other" text with a Font Awesome icon -->
+                                 <i class="fa-solid fa-bars"></i>
+                              </a>
+                              <ul class="dropdown-menu" style="white-space:nowrap">
+                                 <!-- Your dropdown content here -->
+                                 <li class="nav-item dropdown-submenu" >
+                                    <a class="nav-link" href="/team.php">Our Team</a>
                                  </li>
                                  <li class="nav-item dropdown-submenu">
-                                       <a class="nav-link dropdown-toggle" href="#">Integrated Marketing Communication</a>
-                                       <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" >Advertising</a></li>
-                                          <li><a class="dropdown-item" >Public Relations</a></li>
-                                          <li><a class="dropdown-item" >Digital Marketing</a></li>
-                                          <li><a class="dropdown-item" >Experiential &amp; Event Management</a></li>
-                                          <li><a class="dropdown-item" >Production</a></li>
-                                       </ul>
+                                    <a class="nav-link" href="/services.php">Our Offering</a>
                                  </li>
-
                                  <li class="nav-item dropdown-submenu">
-                                       <a class="nav-link dropdown-toggle" href="#">Specialist Services</a>
-                                       <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" >Investment Advisory</a></li>
-                                       </ul>
+                                    <a class="nav-link" href="/toolbox.php">Our Toolbox</a>
                                  </li>
-
                                  <li class="nav-item dropdown-submenu">
-                                       <a class="nav-link dropdown-toggle" href="#">Social Impact</a>
-                                       <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" >Development Communication</a></li>
-                                          <li><a class="dropdown-item" >Sustainability Communication &amp; ESG Reporting</a></li>
-                                       </ul>
+                                    <a class="nav-link" href="/#our-clients">Clients</a>
                                  </li>
-
+                                 <li class="nav-item dropdown-submenu">
+                                    <a class="nav-link" href="/resources.php">News Bureau</a>
+                                 </li>
+                                 <li class="nav-item dropdown d-none d-sm-block" id="sectorsDropdown">
+                                 <a class="nav-link" role="button" data-toggle="dropdown">
+                                    Sectors
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-menu-left" style="left: -100%;float: left;">
+                                    <!-- Your submenu items here -->
+                                    <li class="nav-item">
+                                       <a class="nav-link" >For profit businesses</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" >Non-profit organizations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" >Civil society actors</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" >Social profit enterprises</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" >Public authorities</a>
+                                    </li>
+                                 </ul>
+                              </li>
                               </ul>
-                           </li>
-
-
-                           <li class="nav-item">
-                              <a class="nav-link" href="/team.php">Our Team</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="/#our-clients">clients</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="/resources.php">News Bureau</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="/contact.php">Contact Us</a>
                            </li>
                         </ul>
                      </div>
@@ -299,10 +223,10 @@
                                  <ul class="extra-small-icon d-flex ml-lg-3">
                                     <li>
                                        <a class="instagram" href="" target="_blank">
-                                       <i class="fa-brands fa-x-twitter"></i>
+                                          <i class="fa-brands fa-x-twitter"></i>
                                     </li>
                                     <li><a class="linkedin-in" href="" target="_blank">
-                                       <i class="fab fa-linkedin-in"></i></a>
+                                    <i class="fab fa-linkedin-in"></i></a>
                                     </li>
                                  </ul>
                               </div>
@@ -314,3 +238,12 @@
             </div>
          </div>
       </div>
+      <script>
+  $(document).ready(function () {
+    // Listen for the scroll event on the document
+    $(document).scroll(function () {
+      // Close the navbar dropdowns
+      $('.navbar-collapse.show').removeClass('show');
+    });
+  });
+</script>
