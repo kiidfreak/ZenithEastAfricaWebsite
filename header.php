@@ -165,8 +165,8 @@
                               <a class="nav-link" href="/contact.php">Get in Touch</a>
                            </li>
                            
-                           <li class="nav-item dropdown" id="servicesDropdown">
-                              <a style="cursor: pointer;" class="nav-link " role="button" data-toggle="dropdown">
+                           <li class="nav-item" id="servicesDropdown">
+                              <a style="cursor: pointer;" class="nav-link " role="button">
                                  <!-- Replace "Other" text with a Font Awesome icon -->
                                  <i class="fa-solid fa-bars"></i>
                               </a>

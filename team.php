@@ -17,6 +17,48 @@
     <br>
     <section class="ceoblog">
         <div class="containerwrap">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+
+<script>
+  $(document).ready(function() {
+    // Handle click event on the icon
+    $("#servicesDropdown").on("click", function() {
+      // Load content from overlay.php
+      $.get("overlay.php", function(data) {
+        // Create an overlay and insert the content
+        var overlay = $("<div id='overlay' class='overlay'><i class='fas fa-times' id='close-icon'></i><h2>Sectors We Offer Services To</h2></div>");
+        overlay.html(data);
+
+        // Append the overlay to the body
+        $("body").append(overlay);
+
+        // Close overlay when clicking on the close icon
+        $("#close-icon").on("click", function() {
+          overlay.remove();
+        });
+
+        // Set overlay styles
+        overlay.css({
+          "position": "fixed",
+          "top": 0,
+          "left": 0,
+          "width": "100%",
+          "height": "100%",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "pointer-events": "auto", // Enable pointer events on the overlay
+          "z-index": 10000 // Set a high z-index value to ensure the overlay is on top
+        });
+
+        // Show the overlay with a fade-in effect
+        overlay.fadeIn();
+      });
+    });
+  });
+</script>
 
             <div class="container-fluid">
                 <div class="row p-3-vh" style="padding-left: 0; padding-right: 0;">

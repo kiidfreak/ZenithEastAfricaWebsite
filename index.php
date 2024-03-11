@@ -9,7 +9,82 @@
       max-width: 100%;
       height: 75px;
    }
+   #introtitle {
+      top: 8%;
+      position: absolute;
+      color: #fff;
+      font-size: 35px;
+      z-index: 100;
+      justify-content: left;
+      display: flex;
+      padding-left: 50px;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media only screen and (max-width: 767px) {
+      #introtitle {
+        font-size: 20px !important; /* Add !important to ensure the style takes precedence */
+        padding-left: 20px; /* Adjust padding for better alignment */
+      }
+    }
+    
+    /* Responsive adjustments for smaller screens */
+    @media only screen and (max-width: 767px) {
+      .tp-caption.slide-big-heading {
+        padding-left: 60px !important; /* Adjusted padding for smaller screens */
+        padding-top: 136px !important; /* Adjusted padding for smaller screens */
+      }
+    }
    </style>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+
+<script>
+  $(document).ready(function() {
+    // Handle click event on the icon
+    $("#servicesDropdown").on("click", function() {
+      // Load content from overlay.php
+      $.get("overlay.php", function(data) {
+        // Create an overlay and insert the content
+        var overlay = $("<div id='overlay' class='overlay'><i class='fas fa-times' id='close-icon'></i><h2>Sectors We Offer Services To</h2></div>");
+        overlay.html(data);
+
+        // Append the overlay to the body
+        $("body").append(overlay);
+
+        // Close overlay when clicking on the close icon
+        $("#close-icon").on("click", function() {
+          overlay.remove();
+        });
+
+        // Set overlay styles
+        overlay.css({
+          "position": "fixed",
+          "top": 0,
+          "left": 0,
+          "width": "100%",
+          "height": "100%",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "pointer-events": "auto", // Enable pointer events on the overlay
+          "z-index": 10000 // Set a high z-index value to ensure the overlay is on top
+        });
+
+        // Show the overlay with a fade-in effect
+        overlay.fadeIn();
+      });
+    });
+  });
+</script>
+
+
+
+
+
+
 
 <div class="slider-section">
    
