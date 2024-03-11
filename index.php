@@ -51,8 +51,8 @@
                      
 
                      <br/>
-                           <h2 id="introtitle" style="top: 8%;position: absolute;color: #fff;font-size: 35px; z-index: 100;justify-content: left;display: flex;padding-left: 50px;" >Building impactful businesses<br/> and brands across Africa
-</h2>
+                        <h2 id="introtitle" style="top: 8%;position: absolute;color: #fff;font-size: 35px; z-index: 100;justify-content: left;display: flex;padding-left: 50px;" >Building impactful businesses<br/> and brands across Africa
+                        </h2>
 
 
                         <script>  gsap.registerPlugin(TextPlugin);
@@ -102,22 +102,90 @@
                            </script>
 
 
-<!-- <div class="tp-caption btn-slider sfb"
-   data-x="center"
-   data-y="300"
-   data-speed="400"
-   data-start="800"
-   data-easing="easeInOutExpo">
-   <span class="shine"></span><a href="#services" onclick="navigateToSection()">More Detail</a>
-</div> -->
+                        <script>
+                           function navigateToSection() {
+                              // Use window.location.href to navigate to the specified section
+                              window.location.href = "#sections";
+                           }
 
-<script>
-   function navigateToSection() {
-      // Use window.location.href to navigate to the specified section
-      window.location.href = "#sections";
-   }
+                        </script>
 
-</script>
+                        <!-- Slide 2 -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="7000">
+               <!-- BACKGROUND IMAGE FOR SLIDE 2 -->
+               <img src="img/slider/slider4.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+
+               <!-- Slide 2 content -->
+               <div class="tp-caption slide-big-heading sft" 
+                    data-x="50%" 
+                    data-y="130" 
+                    data-speed="800" 
+                    data-start="400" 
+                    data-easing="easeInOutExpo" 
+                    data-endspeed="450"
+                    style="text-align: center; display: flex; align-items: center; justify-content: center; padding-left:20%; padding-top:360px;">
+                    <span id="strategy" style="color:#B2810B;"></span>
+                           <span id="arrow1" class="arrow" style="opacity: 0;">&gt;</span>
+                           <span id="execution"></span>
+                           <span id="arrow2" class="arrow" style="opacity: 0;">&gt;</span>
+                           <span id="outcomes" style="color:#B2810B;"></span>
+
+
+                           
+                     </div>
+
+                     
+
+                     <br/>
+                        <h2 id="introtitle" style="top: 8%;position: absolute;color: #fff;font-size: 35px; z-index: 100;justify-content: left;display: flex;padding-left: 50px;" >Building impactful businesses<br/> and brands across Africa
+                        </h2>
+
+
+                        <script>  gsap.registerPlugin(TextPlugin);
+
+                           function typeWriter(target, text) {
+                           return gsap.to(target, {
+                              text: {
+                                 value: text,
+                                 delimiter: ""
+                              },
+                              duration: text.length * 0.2, // Adjust speed as needed
+                              ease: "power1.inOut"
+                           });
+                           }
+
+                           const masterTimeline = gsap.timeline({
+                           repeat: -1, // Set to -1 for infinite repeat
+                           repeatDelay: 4, // Repeat every 5 seconds
+                           });
+
+                           // Initial typewriting with opacity
+                           masterTimeline.add(typeWriter("#strategy", "STRATEGY"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow1", "&gt;"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+
+                           // Arrow 2 typewriting with opacity
+                           masterTimeline.add(typeWriter("#execution", "EXECUTION"));
+                           masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow2", "&gt;"));
+                           masterTimeline.to("#arrow2", { opacity: 1, duration: 0.5 });
+
+                           // "OUTCOMES" typewriting with opacity
+                           masterTimeline.add(typeWriter("#outcomes", "OUTCOMES"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+                           masterTimeline.add(typeWriter("#arrow1", "&gt;"));
+                           masterTimeline.to("#arrow1", { opacity: 1, duration: 0.5 });
+
+                           // Blinking effect before repeating
+                           const blinkTimeline = gsap.timeline({ delay: 2 }); // Delay before blinking
+                           blinkTimeline.to("#arrow1", { opacity: 0, duration: 0.2 })
+                           .to("#arrow1", { opacity: 1, duration: 0.2 })
+                           .to("#arrow2", { opacity: 0, duration: 0.2 })
+                           .to("#arrow2", { opacity: 1, duration: 0.2 });
+
+                           masterTimeline.add(blinkTimeline);
+                           </script>
                </li>
             </ul>
             <div class="tp-bannertimer hide"></div>
