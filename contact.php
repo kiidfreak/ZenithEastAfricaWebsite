@@ -174,12 +174,12 @@ label.error {
               <div class="row">
                 <div class="col-md-6 form-group mb-5">
                 <input type="hidden" name="_subject" value="Zenith Form Submitted Through Contact Form In Contact Page Of The Website">
-                  <label for="" class="col-form-label">Name *</label>
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                  <label for="" class="col-form-label">First Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your First name">
                 </div>
                 <div class="col-md-6 form-group mb-5">
-                  <label for="" class="col-form-label">Email *</label>
-                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
+                  <label for="" class="col-form-label">Last Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your Last name">
                 </div>
               </div>
 
@@ -189,8 +189,8 @@ label.error {
                   <input type="text" class="form-control" name="phone" id="phone"  placeholder="Phone No.">
                 </div>
                 <div class="col-md-6 form-group mb-5">
-                  <label for="" class="col-form-label">Company</label>
-                  <input type="text" class="form-control" name="company" id="company"  placeholder="Company  name">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
                 </div>
               </div>
 

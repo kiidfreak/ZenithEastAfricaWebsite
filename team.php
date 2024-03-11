@@ -134,10 +134,10 @@
                 <div class="col-md-12">
                     <div class="vc_custom_heading text_align_center">
                         <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
-                            class="consulting-custom-title">Our team, a collective of consultants with years of experience
+                            class="consulting-custom-title"><mark>Our team, a collective of consultants with years of experience
                             managing global brands in different sectors are united as a single force, bringing boundless
                             creativity, innovation and expertise to deliver results that leave an indelible mark.
-                            <br /><mark>Together, we're shaping a better tomorrow.</mark>
+                            <br />Together, we're shaping a better tomorrow.</mark>
                         </h4>
                     </div>
                 </div>
