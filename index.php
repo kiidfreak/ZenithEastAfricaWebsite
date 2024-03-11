@@ -151,7 +151,7 @@
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="about-info sec-padd text-center mb-5">
                <div class="section-title">
-                  <h2>What we Offer</h2>
+                  <h3 style="align-content: start; font-size:40px; display:flex; color:black;" >What we Offer</h3>
                </div>
             </div>
          </div>
@@ -227,90 +227,6 @@
 </div>
 
 
-<!-- <div id="services">
-<section class="service what-bg">
-<br/>
-   <br/>
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="about-info sec-padd text-center mb-5">
-               <div class="section-title">
-                  <h2>Sectors</h2>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-money-bill"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">For-Profit Businesses</h4> -->
-                  <!-- <P>We blend Ubuntu spirit with profit strategies, fostering prosperity that echoes in community bonds.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-         <div class=" col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-globe"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">Non-Profit Organisations</h4> -->
-                  <!-- <P>Our advisory harmonizes philanthropy, weaving compassion and empowerment into impactful strategies for non-profits.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-person-military-to-person"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">Civil Society Actors</h4> -->
-                  <!-- <P>Amplify voices, foster inclusivity, and nurture positive change – our advisory resonates with East Africa's vibrant tapestry.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-business-time"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">Social Profit Enterprises</h4> -->
-                  <!-- <P>Cultivate culturally rooted, socially impactful enterprises for a lasting legacy of sustainable progress and positive community influence.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-microphone"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">Public Authorities</h4> -->
-                  <!-- <P>Guiding public leaders with Ubuntu, shaping governance that uplifts and resonates with the diverse aspirations of East Africa.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="we-do-item">
-               <div class="we-icon">
-                  <i class="fa-solid fa-earth-africa"></i>
-               </div>
-               <div class="we-desc">
-                  <h4 class="we-title">And so much more..</h4> -->
-                  <!-- <P>Discover tailored advisory solutions for unique sectors, crafted with cultural resonance and global competence.</p> -->
-               <!-- </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-</div> -->
-
 <section class="parallax-bg">
    <div class="container">
       <div class="row">
@@ -323,38 +239,6 @@
          </div>
       </div>
    </div>
-
-<!-- <div id="about-us">
-    <section class="about-faq sec-padd py-5">
-        <div class="container">
-            <div class="section-title text-center mb-5">
-                <h2>Our Toolbox</h2>
-            </div>
-            <div class="row">
-                    <div class="about-info text-center">
-                        <h4>We translate insights into award-winning and disruptive strategies, craft innovative and
-                            human-centric communication, that works across multiple channels transforming businesses and
-                            brand performance, sustainably.</h4>
-                        <br>
-                        <div class="link_btn d-flex flex-wrap justify-content-center">
-                            <span class="mx-2" style="color:#b2810b">Research</span>
-                            <span class="mx-2" style="color:#000">Insights</span>
-                            <span class="mx-2" style="color:#b2810b">Strategies</span>
-                            <span class="mx-2" style="color:#000">Execution</span>
-                            <span class="mx-2" style="color:#b2810b">Outcomes</span>
-                        </div>
-                        <br/>
-                        <div class="text">
-                            <p>
-                                Rooted in extensive experience and diverse exposure in various sectors, our
-                                methodologies untangle and challenge conventional solutions.
-                            </p>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </section>
-</div> -->
 
 
 <br/>
@@ -422,57 +306,6 @@
       </div>
    </section>
 
-<!-- 
-
-<div class="fun-facts pt-70 pb-100">
-   <div class="container">
-      <div class="row d-flex justify-content-center">
-         <div class="col-md-12">
-            <div class="vc_custom_heading no_stripe text-center  d-md-block counter-head
-               text_align_left has_icon  mb-3">
-               <h4 style="font-size:31px;color: #ffffff;line-height:37px;text-align:center" 
-                  class="consulting-custom-title"><mark>Business</mark> skill</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-2 col-sm-2 col-6">
-            <div class="fun-facts-card">
-               <div class="content text-center">
-                  <span class="counter">25 </span><span style="color: #ffffff; font-size: 50px; font-weight: 700; margin: 0 0 0px; line-height: 60px;white-space: nowrap;"> +</span>
-                  <div class="counter-title">Years in Practice</div>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-2  col-md-2 col-sm-4 col-6">
-            <div class="fun-facts-card">
-               <div class="content text-center">
-                  <span class="counter">100 </span><span style="color: #ffffff; font-size: 50px; font-weight: 700; margin: 0 0 0px; line-height: 60px;white-space: nowrap;"> +</span>
-                  <div class="counter-title">Clients Handled</div>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-2  col-md-2 col-sm-4 col-6">
-            <div class="fun-facts-card">
-               <div class="content text-center">
-                  <span class="counter">25 </span><span style="color: #ffffff; font-size: 50px; font-weight: 700; margin: 0 0 0px; line-height: 60px;white-space: nowrap;"> +</span>
-                  <div class="counter-title">Awards Recognized</div>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-2 col-sm-4 col-6">
-            <div class="fun-facts-card">
-               <div class="content text-center">
-                  <span class="counter">100 </span><span class="percentage" style="font-size:36px;
-                     color:#fff; font-weight:600;">%<span>
-                  <div class="counter-title">Satisfied Customers</div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div> -->
-
-
-
 
 <div id=our-clients>
    <br/>
@@ -480,7 +313,7 @@
 
    <div class="about-info sec-padd text-center mb-5" style="margin-bottom: 0 !important;">
       <div class="section-title">
-         <h2>Clients</h2>
+         <h2>Our Clients</h2>
       </div>
    </div>
 
@@ -490,7 +323,7 @@
       <div class="row">
          <div class="col-md-12">
             <div class="client-outer">
-               <div class="slick-slider client-slider">
+               <div class="slick-slider client-slider" style="height: 230px !important;">
 
                <div class="item wow slideInLeft" data-wow-delay=".1s">
                      <img src="img/client/dow.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
@@ -590,8 +423,6 @@
          </div>
       </div>
    </div>
-   <br>
-   <br>
 </div>
 </div>
 </section>

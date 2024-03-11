@@ -156,15 +156,16 @@
                      </button>
                      <div class="collapse navbar-collapse mobile-nav" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto ">
-                           <li class="nav-item active">
+                           <li id="nav-test" class="nav-item active" style="padding-right: 35px;">
                               <a class="nav-link " href="index.php">Home</a>
                            </li>
-                           <li class="nav-item active">
+                           <!-- <li class="nav-item active">
                               <a style class="nav-link " href="about-us.php" role="button">About Us</a>
-                           </li>
+                           </li> -->
                            <li class="nav-item">
                               <a class="nav-link" href="/contact.php">Get in Touch</a>
                            </li>
+                           
                            <li class="nav-item dropdown" id="servicesDropdown">
                               <a style="cursor: pointer;" class="nav-link " role="button" data-toggle="dropdown">
                                  <!-- Replace "Other" text with a Font Awesome icon -->
@@ -173,7 +174,7 @@
                               <ul class="dropdown-menu" style="white-space:nowrap">
                                  <!-- Your dropdown content here -->
                                  <li class="nav-item dropdown-submenu" >
-                                    <a class="nav-link" href="/team.php">Our Team</a>
+                                    <a class="nav-link" href="/about-us.php">About Us</a>
                                  </li>
                                  <li class="nav-item dropdown-submenu">
                                     <a class="nav-link" href="/services.php">Our Offering</a>
@@ -181,12 +182,13 @@
                                  <li class="nav-item dropdown-submenu">
                                     <a class="nav-link" href="/toolbox.php">Our Toolbox</a>
                                  </li>
-                                 <li class="nav-item dropdown-submenu">
-                                    <a class="nav-link" href="/#our-clients">Clients</a>
+                                 <li class="nav-item dropdown-submenu" >
+                                    <a class="nav-link" href="/team.php">Our Team</a>
                                  </li>
                                  <li class="nav-item dropdown-submenu">
                                     <a class="nav-link" href="/resources.php">News Bureau</a>
                                  </li>
+
                                  <li class="nav-item dropdown d-none d-sm-block" id="sectorsDropdown">
                                  <a class="nav-link" role="button" data-toggle="dropdown">
                                     Sectors

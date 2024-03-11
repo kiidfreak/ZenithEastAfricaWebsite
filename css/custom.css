@@ -549,6 +549,11 @@ a, button {
     font-size: 18px;
 }
 
+.navbar-nav .nav-item .nav-link:hover {
+    color: #9b7009;
+}
+
+
 .navbar-nav .nav-item.active .nav-link {
     /* color: #fff; */
     font-weight: 600;

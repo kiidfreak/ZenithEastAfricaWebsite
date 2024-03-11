@@ -40,7 +40,7 @@
    position: relative;
    border-radius: 8px;
    overflow: hidden;
-   background-image: url('img/blog/ZenithServices1.png'); /* Replace with the path to your background image */
+   background-image: url('img/blog/MarketResearch.png'); /* Replace with the path to your background image */
    background-size: contain; /* Adjust the background size */
    background-position: center;
    background-repeat: no-repeat;
@@ -53,19 +53,19 @@
    }
    /* Separate class for the second section */
    .second-section .about-image {
-   background-image: url('img/blog/ZenithServices2.png'); /* Replace with the path to your second background image */
+   background-image: url('img/blog/StrategicAdvisory.png'); /* Replace with the path to your second background image */
    }
    /* Separate class for the second section */
    .third-section .about-image {
-   background-image: url('img/blog/ZenithServices3.png'); /* Replace with the path to your second background image */
+   background-image: url('img/blog/Comms.png'); /* Replace with the path to your second background image */
    }
    /* Separate class for the second section */
    .fourth-section .about-image {
-   background-image: url('img/blog/ZenithServices4.png'); /* Replace with the path to your second background image */
+   background-image: url('img/blog/Networks.png'); /* Replace with the path to your second background image */
    }
    /* Separate class for the second section */
    .fifth-section .about-image {
-   background-image: url('img/blog/ZenithServices5.png'); /* Replace with the path to your second background image */
+   background-image: url('img/blog/SocialImpact.png'); /* Replace with the path to your second background image */
    }
    /* Media query for small screens */
    @media (max-width: 767px) {
@@ -148,7 +148,8 @@
                         to guide your strategic decisions.
                      </h4>
                      <br>
-                     <div class="link_btn text-end">
+                     <div class="link_btn text-end collapse" id="readMoreContent1">
+                     <div class="text-end">
                         <ul style="list-style-type: disc; padding: 0;">
                            <li class="my-2" style="color: black;">Market Research</li>
                            <li class="my-2" style="color: #b2810b;">Brand Analysis</li>
@@ -162,6 +163,29 @@
                            your industry.
                         </p>
                      </div>
+                  </div>
+                                 <!-- Button to trigger the collapse -->
+                                 <div class="link_btn">
+                                    <a href="javascript:void(0);" onclick="toggleReadMore(1)" class="btn thm-btn" id="thm-btn1"  onmouseover="this.style.color='#b2810b'; this.style.textDecoration='none'" onmouseout="this.style.color='white';">Read
+                                        more <i class="vc_btn3-icon fas fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="read-more-space"><p></p></div>
+                                <script>
+                                    function toggleReadMore(section) {
+                                       var readMoreContent = document.getElementById('readMoreContent' + section);
+                                       var thmBtn = document.getElementById('thm-btn' + section);
+
+                                       if (readMoreContent.classList.contains('show')) {
+                                          readMoreContent.classList.remove('show');
+                                          thmBtn.innerText = 'Read more';
+                                          thmBtn.setAttribute('aria-expanded', 'false');
+                                       } else {
+                                          readMoreContent.classList.add('show');
+                                          thmBtn.innerText = 'Show less';
+                                          thmBtn.setAttribute('aria-expanded', 'true');
+                                       }
+                                    }
+                                 </script>
                   </div>
                   <div class="about-image"></div>
                </div>
@@ -181,6 +205,7 @@
    decision and communication strategy is in line with your organizational goals.
    </h4>
    <br>
+   <div class="link_btn text-end collapse" id="readMoreContent2">
    <div class="link_btn text-end">
    <ul style="list-style-type: disc; padding: 0;">
    <li style="color: black;">Brand Development</li>
@@ -189,7 +214,15 @@
    <li style="color: #b2810b;">Brand+Brand/Customer Experience</li>
    <li style="color: black;">Innovation</li>
    </ul>
+   </div>   
+   <br/>
    </div>
+            <!-- Button to trigger the collapse -->
+            <div class="link_btn">
+            <a href="javascript:void(0);" onclick="toggleReadMore(2)" class="btn btn-link thm-btn" id="thm-btn2" onmouseover="this.style.color='#b2810b'; this.style.textDecoration='none'" onmouseout="this.style.color='white';">Read
+                  more <i class="vc_btn3-icon fas fa-chevron-right" aria-hidden="true"></i></a>
+         </div>
+         <div class="read-more-space"><p></p></div>
    <br/>
    <div class="text">
    <!-- <p style="text-align: center;">
@@ -259,6 +292,7 @@
    left: 0;
    }
    </style>
+     <div class="link_btn text-end collapse" id="readMoreContent3">
    <div class="link_btn6 text-end">
    <ul>
    <li style="color: #b2810b;" >•Advertising
@@ -314,6 +348,13 @@
    </li>
    <ul>
    </div>
+   </div>
+               <!-- Button to trigger the collapse -->
+               <div class="link_btn">
+            <a href="javascript:void(0);" onclick="toggleReadMore(3)" class="btn btn-link thm-btn" id="thm-btn3" onmouseover="this.style.color='#b2810b'; this.style.textDecoration='none'" onmouseout="this.style.color='white';">Read
+                  more <i class="vc_btn3-icon fas fa-chevron-right" aria-hidden="true"></i></a>
+         </div>
+         <div class="read-more-space"><p></p></div>
    <br/>
    <div class="text">
    <!-- <p style="text-align: center;">
@@ -339,9 +380,11 @@
    opportunities. Leverage our extensive network of industry experts, thought
    leaders and influencers to form key partnerships, source investments and
    gain influence in your sector.
+
    </h4>
    <br>
    <div class="link_btn6 text-end">
+         <div class="link_btn text-end collapse" id="readMoreContent4">
    <ul>
    <li style="color: #b2810b;" >•Investment Advisory
    <ul>
@@ -351,6 +394,14 @@
    <ul>
    </div>
    <br/>
+</div>
+               <!-- Button to trigger the collapse -->
+               <div class="link_btn">
+            <a href="javascript:void(0);" onclick="toggleReadMore(4)" class="btn btn-link thm-btn" id="thm-btn4" onmouseover="this.style.color='#b2810b'; this.style.textDecoration='none'" onmouseout="this.style.color='white';">Read
+                  more <i class="vc_btn3-icon fas fa-chevron-right" aria-hidden="true"></i></a>
+         </div>
+         <div class="read-more-space"><p></p></div>
+
    <div class="text">
    <!-- <p style="text-align: center;">
       Access our comprehensive market research and analysis to stay one step ahead in
@@ -375,6 +426,7 @@
    </h4>
    <br>
    <div class="link_btn6 text-end">
+   <div class="link_btn text-end collapse" id="readMoreContent5">
    <ul>
    <li style="color: #b2810b;" >•Development Communication <br/> (Social Behavior Change Communication)
    <ul>
@@ -400,7 +452,14 @@
    </li>
    <ul>
    </div>
+</div>
    <br/>
+               <!-- Button to trigger the collapse -->
+               <div class="link_btn">
+            <a href="javascript:void(0);" onclick="toggleReadMore(5)" class="btn btn-link thm-btn" id="thm-btn5" onmouseover="this.style.color='#b2810b'; this.style.textDecoration='none'" onmouseout="this.style.color='white';">Read
+                  more <i class="vc_btn3-icon fas fa-chevron-right" aria-hidden="true"></i></a>
+         </div>
+         <div class="read-more-space"><p></p></div>
    <div class="text">
    <!-- <p style="text-align: center;">
       Access our comprehensive market research and analysis to stay one step ahead in

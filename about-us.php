@@ -17,26 +17,14 @@
 
    <div class="container">
       <div class="section-title text-center mb-5">
-         <br/>
-         
-         <h2>About us</h2>
       </div>
       <div class="row">
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="about-info">
                <h4 style="text-align: center">Zenith East Africa is a Strategic C-Suite Advisory Firm that offers discerning clients with specialist services that leverage on market insights and networks to provide business and communication counsel to leaders of enterprises navigate complex operating environments with confidence and impact.</h4>
-               <br>
-               <div class="text">
-               </div>
-
-
-               <div class="text">
-               </div>
-
-      </div>
+</div>
    </div>
-   <br/>
-   <br/>
+
 </section>
 </div>
 
@@ -55,7 +43,6 @@
             <div class="about-info">
                <h4 style="text-align: center">Igniting business growth by creating value for our stakeholders while promoting sustainability for a positive impact on the planet.
 </h4>
-               <br>
 
       </div>
    </div>
