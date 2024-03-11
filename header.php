@@ -21,9 +21,6 @@
       <!--fontawesome-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
-      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"> -->
-      <!-- Add the slick-theme.css if you want default styling -->
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
       <!-- Add the slick-theme.css if you want default styling -->
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -34,6 +31,8 @@
       <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
       <link rel="manifest" href="img/favicons/site.webmanifest">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
       <!-- fontawesome js -->
       <script src="https://kit.fontawesome.com/0c3d8da444.js" crossorigin="anonymous"></script>
       <!-- word splitter js -->

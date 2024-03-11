@@ -117,7 +117,6 @@
       window.location.href = "#sections";
    }
 
-   // Your existing script
 </script>
                </li>
             </ul>
@@ -449,101 +448,7 @@
 		
 </script>
 
-
-<!-- <section class="parallax-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="vc_custom_heading text_align_center">
-               <h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center"
-                  class="consulting-custom-title"><mark>Our philosophy </mark>revolves around prioritizing people, creating value for our stakeholders, supporting business growth and promoting sustainability for a positive impact on the planet.</h4>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
-
 <div id="blog">
-   <!-- <br>
-   <br>
 
-   <br>
-   <br> -->
-<!-- <section class="blog">
- <div class="containerwrap">
-   
-   <div class="container-fluid">
-      <div class="row p-3-vh">
-         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="about-info sec-padd text-center mb-5">
-               <div class="section-title">
-                  <h2>News</h2>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-3 wow-outer">
-            <div class="blogcolumn wow slideInRight" data-wow-delay=".1s">
-               <div class="imgtop">
-                  <img src="img/blog/meta.jpeg" alt="" class="w-gallery-image">
-                  <span class="tag">
-                  Advisory
-                  </span>
-               </div>
-               <div class="blogcont">
-                  <div class="headingblog">
-                     <a href="#">Zenith announces a partnership with Meta</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-3 wow-outer">
-            <div class="blogcolumn wow slideInRight"  data-wow-delay=".3s">
-               <div class="imgtop">
-                  <img src="img/blog/visa.jpg" alt="" class="w-gallery-image">
-                  <span class="tag">
-                  Economics
-                  </span>
-               </div>
-               <div class="blogcont">
-                  <div class="headingblog">
-                     <a href="#">Zenith announces a partnership with Visa</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-3 wow-outer">
-            <div class="blogcolumn wow slideInRight"  data-wow-delay=".6s">
-               <div class="imgtop">
-                  <img src="img/blog/travel.jpg" alt="" class="w-gallery-image">
-                  <span class="tag">
-                  Innovation
-                  </span>
-               </div>
-               <div class="blogcont">
-                  <div class="headingblog">
-                     <a href="#">Strategic and commercial policies updates</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-3 wow-outer">
-            <div class="blogcolumn wow slideInRight"  data-wow-delay=".6s">
-               <div class="imgtop">
-                  <img src="img/blog/stocks.jpeg" alt="" class="w-gallery-image">
-                  <span class="tag">
-                  Research
-                  </span>
-               </div>
-               <div class="blogcont">
-                  <div class="headingblog">
-                     <a href="#">Broad research on companies' economics</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
- </div>
-</section> -->
 </div>
 <?php include("footer.php");?>
