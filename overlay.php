@@ -36,6 +36,7 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
     display: block;
+    font-size: 30px;
   }
 
   #navov a:after {
@@ -79,38 +80,38 @@
           <!-- Sectors Title -->
           <div class="col-12" style="padding: 4em;padding-left: 0;">
             <div class="col-4 grid-title">
-              <h1 style="color:#B2810B;margin-bottom: 0em;">Our Sectors</h1>
+              <h1 style="color:#B2810B;margin-left: 1em;">Our Sectors</h1>
             </div>
           </div>
           <!-- Sector Items -->
           <div class="col-md-4">
           <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-money-bill"></i>
-              <h2 class="mt-2">For-profit businesses</h2>
+              <h2 class="mt-2" style="font-size: 25px;">For-profit businesses</h2>
             </div>
           </div>
           <div class="col-md-4">
           <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-globe"></i>
-              <h2 class="mt-2">Non-profit organizations</h2>
+              <h2 class="mt-2" style="font-size: 25px;">Non-profit organizations</h2>
             </div>
           </div>
           <div class="col-md-4">
           <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-microphone"></i>
-              <h2 class="mt-2">Public authorities</h2>
+              <h2 class="mt-2" style="font-size: 25px;">Public authorities</h2>
             </div>
           </div>
           <div class="col-md-4">
             <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-person-military-to-person"></i>
-              <h2 class="mt-2">Civil society actors</h2>
+              <h2 class="mt-2" style="font-size: 25px;">Civil society actors</h2>
             </div>
           </div>
           <div class="col-md-4">
           <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-business-time"></i>
-              <h2 class="mt-2">Social profit enterprises</h2>
+              <h2 class="mt-2" style="font-size: 25px;">Social profit enterprises</h2>
             </div>
           </div>
         </div>
@@ -122,7 +123,7 @@
           <!-- Space between content and navbar -->
         </div>
         <!-- Navbar Section -->
-        <nav id="navov" style="padding-top: 10em;">
+        <nav id="navov" style="padding-top: 5em;">
           <a href="/about-us.php" class="d-block mb-2">About Us</a>
           <a href="/services.php" class="d-block mb-2">Our Offering</a>
           <a href="/toolbox.php" class="d-block mb-2">Our Toolbox</a>

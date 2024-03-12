@@ -17,48 +17,8 @@
 
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<script>
-  $(document).ready(function() {
-    // Handle click event on the icon
-    $("#servicesDropdown").on("click", function() {
-      // Load content from overlay.php
-      $.get("overlay.php", function(data) {
-        // Create an overlay and insert the content
-        var overlay = $("<div id='overlay' class='overlay'><i class='fas fa-times' id='close-icon'></i><h2>Sectors We Offer Services To</h2></div>");
-        overlay.html(data);
-
-        // Append the overlay to the body
-        $("body").append(overlay);
-
-        // Close overlay when clicking on the close icon
-        $("#close-icon").on("click", function() {
-          overlay.remove();
-        });
-
-        // Set overlay styles
-        overlay.css({
-          "position": "fixed",
-          "top": 0,
-          "left": 0,
-          "width": "100%",
-          "height": "100%",
-          "background-color": "rgba(0, 0, 0, 0.8)",
-          "pointer-events": "auto", // Enable pointer events on the overlay
-          "z-index": 10000 // Set a high z-index value to ensure the overlay is on top
-        });
-
-        // Show the overlay with a fade-in effect
-        overlay.fadeIn();
-      });
-    });
-  });
-</script><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
 
 <script>
   $(document).ready(function() {
@@ -96,6 +56,8 @@
     });
   });
 </script>
+
+
 
    <!-- Hero Section -->
    <section class="about-hero sec-padd py-5">
@@ -180,7 +142,7 @@
                </div>
             </div>
             <div class="col-md-6 d-md-flex align-items-center">
-               <img src="img/blog/values.png" alt="Values Image" class="img-fluid mx-auto d-block" style="max-width: 75%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+               <img src="img/blog/values.jpg" alt="Values Image" class="img-fluid mx-auto d-block" style="max-width: 75%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             </div>
          </div>
       </div>
