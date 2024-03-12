@@ -1914,7 +1914,7 @@ a.blantershow-chat {
 }
 
 .we-do-item:hover {
-    background-color: #f8f8f8;
+    background-color: #b2810b;
 }
 
 .we-do-item .we-icon:before {
@@ -1925,7 +1925,7 @@ a.blantershow-chat {
     left: 35px;
     width: 6px;
 	top: -9px;
-   background: #B2810B;
+   background: #fff;
     height: 0;
     transition: all .3s ease;
 }
@@ -1972,7 +1972,7 @@ a.blantershow-chat {
 	transform-origin:top;
     width: 6px;
 	bottom:-6px;
-    background: #B2810B;
+    background: #fff;
     height: 0;
     transition: all .3s ease;
 }

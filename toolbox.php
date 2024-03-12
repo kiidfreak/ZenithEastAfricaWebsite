@@ -178,18 +178,15 @@
       <div class="about-info sec-padd text-center mb-5">
          <div class="section-title">
             <h2>Our Toolbox</h2>
-         </div>
-      </div>
+         <!-- </div>
+      </div> -->
    </div>
    <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12">
    <div class="about-info">
       <h4 style="text-align: center">We translate insights into award-winning and disruptive strategies, craft innovative and human-centric communication, that works across multiple channels transforming businesses and brand performance, sustainably.</h4>
-      <br>
       <div id="services">
          <section class="service what-bg">
-            <br/>
-            <br/>
             <div class="container">
                <div class="row">
                   <div class="col-md-4 col-sm-6 col-xs-12">

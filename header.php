@@ -143,9 +143,9 @@
                         <img src="img/Zenith4.png" class="img-fluid" alt="Your Alt Text Here"/>
                         </a>
                         <div style="font-family: 'Montserrat', sans-serif;">
-                           <p style="font-weight: 900; color: white; font-size: 30px; padding-top: 20px; line-height: 0; letter-spacing: 5px;">Zenith<br/></p>
-                           <p style="color: white; font-size: 13px; line-height: 1.5; letter-spacing: 0.5px;"> East Africa Limited<br/></p>
-                           <p style="color: white; font-size: 10px; line-height: 0; letter-spacing: 2px; text-align: end;">| Advisory Services</p>
+                           <p style="font-weight: 900; color: white; font-size: 30px; padding-top: 20px; line-height: 0; letter-spacing: 3px;text-align: center;">Zenith<br/></p>
+                           <p style="color: white; font-size: 13px; line-height: 1.5; letter-spacing: 0px;text-align: center;"> East Africa Limited<br/></p>
+                           <p style="color: white; font-size: 10px; line-height: 0; letter-spacing: 2px; text-align: end;font-weight: 600;">| Advisory Services</p>
                         </div>
                      </div>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,57 +161,15 @@
                            <!-- <li class="nav-item active">
                               <a style class="nav-link " href="about-us.php" role="button">About Us</a>
                            </li> -->
-                           <li class="nav-item">
+                           <li class="nav-item" style="padding-right: 35px;">
                               <a class="nav-link" href="/contact.php">Get in Touch</a>
                            </li>
                            
-                           <li class="nav-item" id="servicesDropdown">
+                           <li class="nav-item" id="servicesDropdown" style="padding-right: 35px;">
                               <a style="cursor: pointer;" class="nav-link " role="button">
                                  <!-- Replace "Other" text with a Font Awesome icon -->
                                  <i class="fa-solid fa-bars"></i>
                               </a>
-                              <ul class="dropdown-menu" style="white-space:nowrap">
-                                 <!-- Your dropdown content here -->
-                                 <li class="nav-item dropdown-submenu" >
-                                    <a class="nav-link" href="/about-us.php">About Us</a>
-                                 </li>
-                                 <li class="nav-item dropdown-submenu">
-                                    <a class="nav-link" href="/services.php">Our Offering</a>
-                                 </li>
-                                 <li class="nav-item dropdown-submenu">
-                                    <a class="nav-link" href="/toolbox.php">Our Toolbox</a>
-                                 </li>
-                                 <li class="nav-item dropdown-submenu" >
-                                    <a class="nav-link" href="/team.php">Our Team</a>
-                                 </li>
-                                 <li class="nav-item dropdown-submenu">
-                                    <a class="nav-link" href="/resources.php">News Bureau</a>
-                                 </li>
-
-                                 <li class="nav-item dropdown d-none d-sm-block" id="sectorsDropdown">
-                                 <a class="nav-link" role="button" data-toggle="dropdown">
-                                    Sectors
-                                 </a>
-                                 <ul class="dropdown-menu dropdown-menu-left" style="left: -100%;float: left;">
-                                    <!-- Your submenu items here -->
-                                    <li class="nav-item">
-                                       <a class="nav-link" >For profit businesses</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link" >Non-profit organizations</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link" >Civil society actors</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link" >Social profit enterprises</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link" >Public authorities</a>
-                                    </li>
-                                 </ul>
-                              </li>
-                              </ul>
                            </li>
                         </ul>
                      </div>

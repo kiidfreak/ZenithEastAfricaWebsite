@@ -13,6 +13,90 @@
 
 <div id="about-us">
 
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+
+<script>
+  $(document).ready(function() {
+    // Handle click event on the icon
+    $("#servicesDropdown").on("click", function() {
+      // Load content from overlay.php
+      $.get("overlay.php", function(data) {
+        // Create an overlay and insert the content
+        var overlay = $("<div id='overlay' class='overlay'><i class='fas fa-times' id='close-icon'></i><h2>Sectors We Offer Services To</h2></div>");
+        overlay.html(data);
+
+        // Append the overlay to the body
+        $("body").append(overlay);
+
+        // Close overlay when clicking on the close icon
+        $("#close-icon").on("click", function() {
+          overlay.remove();
+        });
+
+        // Set overlay styles
+        overlay.css({
+          "position": "fixed",
+          "top": 0,
+          "left": 0,
+          "width": "100%",
+          "height": "100%",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "pointer-events": "auto", // Enable pointer events on the overlay
+          "z-index": 10000 // Set a high z-index value to ensure the overlay is on top
+        });
+
+        // Show the overlay with a fade-in effect
+        overlay.fadeIn();
+      });
+    });
+  });
+</script><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+
+<script>
+  $(document).ready(function() {
+    // Handle click event on the icon
+    $("#servicesDropdown").on("click", function() {
+      // Load content from overlay.php
+      $.get("overlay.php", function(data) {
+        // Create an overlay and insert the content
+        var overlay = $("<div id='overlay' class='overlay'><i class='fas fa-times' id='close-icon'></i><h2>Sectors We Offer Services To</h2></div>");
+        overlay.html(data);
+
+        // Append the overlay to the body
+        $("body").append(overlay);
+
+        // Close overlay when clicking on the close icon
+        $("#close-icon").on("click", function() {
+          overlay.remove();
+        });
+
+        // Set overlay styles
+        overlay.css({
+          "position": "fixed",
+          "top": 0,
+          "left": 0,
+          "width": "100%",
+          "height": "100%",
+          "background-color": "rgba(0, 0, 0, 0.8)",
+          "pointer-events": "auto", // Enable pointer events on the overlay
+          "z-index": 10000 // Set a high z-index value to ensure the overlay is on top
+        });
+
+        // Show the overlay with a fade-in effect
+        overlay.fadeIn();
+      });
+    });
+  });
+</script>
+
    <!-- Hero Section -->
    <section class="about-hero sec-padd py-5">
       <div class="container">
@@ -82,17 +166,17 @@
                <div class="about-info">
                   <h4 style="text-align: center">Our shared values are at the core of each decision we make, how we act and help us deliver impact where it matters.</h4>
                   <ul>
-                     <li><i class="fas fa-check"></i> <mark>Leadership</mark>: We not only lead in our practice but also challenge the status quo and reinvent it for the future.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Collaboration</mark>: We work together as a team with our stakeholders.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Value Driven</mark>: We are committed to providing exceptional value in all our engagements.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Continuous Learning</mark>: We are continuously learning and adding flexibility to our business processes.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Social Impact</mark>: We are committed to working with our communities.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Passionate</mark>: We are passionate and enthusiastic about our business.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Care</mark>: We look out for one another and prioritize respect, fairness, development, and well-being.</li><br/>
-                     <li><i class="fas fa-check"></i> <mark>Culture</mark>: We foster a collaborative, creative, and dynamic work culture that empowers our teams to grow and thrive, providing lasting results to our clients and their businesses.</li>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Leadership</span>: We not only lead in our practice but also challenge the status quo and reinvent it for the future.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Collaboration</span>: We work together as a team with our stakeholders.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Value Driven</span>: We are committed to providing exceptional value in all our engagements.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Continuous Learning</span>: We are continuously learning and adding flexibility to our business processes.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Social Impact</span>: We are committed to working with our communities.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Passionate</span>: We are passionate and enthusiastic about our business.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Care</span>: We look out for one another and prioritize respect, fairness, development, and well-being.</li><br/>
+                     <li><i class="fas fa-check"></i> <span style="color: #B2810B;">Culture</span>: We foster a collaborative, creative, and dynamic work culture that empowers our teams to grow and thrive, providing lasting results to our clients and their businesses.</li>
                      <br/>
-                     <!-- Add more values with icons -->
                   </ul>
+
                </div>
             </div>
             <div class="col-md-6 d-md-flex align-items-center">
