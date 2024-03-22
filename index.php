@@ -468,40 +468,107 @@
                <div class="slick-slider client-slider" style="height: 230px !important;">
 
                <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/dow.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
+                     <img src="img/client/dow.png" class="img-fluid1" alt="Imageteam" style="padding-top: 35px;">
                   </div>
 
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/kh.jpeg" class="img-fluid1" alt="Imageteam">
+                     <img src="img/client/kh.png" class="img-fluid1" alt="Imageteam">
                   </div>
 
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/unityhomes.jpeg" class="img-fluid1" alt="Imageteam">
+                     <img src="img/client/unityhomes.png" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
                   </div>
 
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/weston.png" class="img-fluid1" alt="Imageteam">
+                     <img src="img/client/weston.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
                   </div>
 
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/1.png" class="img-fluid1" alt="Imageteam" style="padding-top: 2px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/2.png" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/3.webp" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/4.png" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/5.png" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/6.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/7.png" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/8.png" class="img-fluid1" alt="Imageteam" style="padding-top: 25px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/9.png" class="img-fluid1" alt="Imageteam" style="padding-top: 10px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/10.jpg" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/11.png" class="img-fluid1" alt="Imageteam" style="padding-top: 50px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/12.png" class="img-fluid1" alt="Imageteam" style="padding-top: 35px;">
+                     </div>
+                  </div>
+                  <div class="wow-outer">
+                     <div class="item wow slideInLeft" data-wow-delay=".1s">
+                        <img src="img/client/13.jpg" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                     </div>
+                  </div>
+
+
                   <div class="item wow slideInLeft" data-wow-delay=".1s">
-                     <img src="img/client/a.png" class="img-fluid1" alt="Imageteam">
+                     <img src="img/client/a.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
                   </div>
                   <div class="item wow slideInLeft" data-wow-delay=".3s">
-                     <img src="img/client/b.png" class="img-fluid1" alt="Imageteam" style="padding-top: 32px;">
+                     <img src="img/client/b.png" class="img-fluid1" alt="Imageteam" style="padding-top: 40px;">
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".5s">
-                        <img src="img/client/c.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
+                        <img src="img/client/c.png" class="img-fluid1" alt="Imageteam" style="padding-top: 25px;">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".9s">
-                        <img src="img/client/d.png" class="img-fluid1" alt="Imageteam" style="padding-top: 8px;">
+                        <img src="img/client/d.png" class="img-fluid1" alt="Imageteam" style="padding-top: 15px;">
                      </div>
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".10s">
-                        <img src="img/client/e.png" class="img-fluid1" alt="Imageteam" style="padding-top: 7px;">
+                        <img src="img/client/e.png" class="img-fluid1" alt="Imageteam" style="padding-top: 10px;">
                      </div>
                   </div>
                   <div class="wow-outer">
@@ -526,7 +593,7 @@
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/k.jpeg" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                        <img src="img/client/k.png" class="img-fluid1" alt="Imageteam" style="padding-top: 10px;">
                      </div>
                   </div>
                   <div class="wow-outer">
@@ -546,7 +613,7 @@
                   </div>
                   <div class="wow-outer">
                      <div class="item wow slideInLeft" data-wow-delay=".1s">
-                        <img src="img/client/o.png" class="img-fluid1" alt="Imageteam" style="padding-top: 0px;">
+                        <img src="img/client/o.png" class="img-fluid1" alt="Imageteam" style="padding-top: 5px;">
                      </div>
                   </div>
                   <div class="wow-outer">
@@ -559,7 +626,7 @@
                         <img src="img/client/q.png" class="img-fluid1" alt="Imageteam" style="padding-top: 20px;">
                      </div>
                   </div>
-
+                  
 
             </div>
          </div>
@@ -567,6 +634,11 @@
    </div>
 </div>
 </div>
+<div class="about-info sec-padd text-center mb-5" style="margin-bottom: 0 !important;">
+      <div class="section-title">
+         <p>*Includes previous clients the lead consultant has partnered with.</p>
+      </div>
+   </div>
 </section>
 
 <script>

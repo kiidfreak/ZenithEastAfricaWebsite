@@ -80,19 +80,22 @@
       <div class="container">
          <div class="row">
 
-            <!-- Philosophy Column -->
-            <div class="col-md-4">
+
+
+                     <!-- Vision Column -->
+                     <div class="col-md-4">
                <div class="section-title text-center mb-5">
-                  <h2>Our Philosophy</h2>
+                  <h2>Our Vision</h2>
                </div>
                <div class="about-info">
-               <img src="img\blog\philosophy.png" alt="Philosophy Image" class="img-fluid mx-auto d-block mb-3" style="max-width: 75%; height: auto;">
-                  <h4 style="text-align: center">Igniting business growth by creating value for our stakeholders while promoting sustainability for a positive impact on the planet.</h4>
+               <img src="img\blog\vision.png" alt="Vision Image" class="img-fluid mx-auto d-block mb-3" style="max-width: 75%; height: auto;">
+                  <h4 style="text-align: center">Building impactful businesses and brands across Africa.</h4>
                </div>
             </div>
 
-            <!-- Mission Column -->
-            <div class="col-md-4">
+
+                        <!-- Mission Column -->
+                        <div class="col-md-4">
                <div class="section-title text-center mb-5">
                   <h2>Our Mission</h2>
                </div>
@@ -102,16 +105,17 @@
                </div>
             </div>
 
-            <!-- Vision Column -->
-            <div class="col-md-4">
+                        <!-- Philosophy Column -->
+                        <div class="col-md-4">
                <div class="section-title text-center mb-5">
-                  <h2>Our Vision</h2>
+                  <h2>Our Philosophy</h2>
                </div>
                <div class="about-info">
-               <img src="img\blog\vision.png" alt="Vision Image" class="img-fluid mx-auto d-block mb-3" style="max-width: 75%; height: auto;">
-                  <h4 style="text-align: center">Building impactful businesses and brands across Africa.</h4>
+               <img src="img\blog\philosophy.png" alt="Philosophy Image" class="img-fluid mx-auto d-block mb-3" style="max-width: 75%; height: auto;">
+                  <h4 style="text-align: center">Igniting business growth by creating value for our stakeholders while promoting sustainability for a positive impact on the planet.</h4>
                </div>
             </div>
+
 
          </div>
       </div>

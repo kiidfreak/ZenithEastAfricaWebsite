@@ -200,10 +200,10 @@
                      </div>
                      <br/>
                      <div class="text">
-                        <p style="text-align: center;">
+                        <!-- <p style="text-align: center;">
                            Access our comprehensive market research and analysis to stay one step ahead in
                            your industry.
-                        </p>
+                        </p> -->
                      </div>
                   </div>
                                  <!-- Button to trigger the collapse -->
@@ -253,7 +253,7 @@
    <li style="color: black;">Brand Development</li>
    <li style="color: #b2810b;">Brand Purpose Positioning + Expressions</li>
    <li style="color: black;">Growth</li>
-   <li style="color: #b2810b;">Brand+Brand/Customer Experience</li>
+   <li style="color: #b2810b;">Brand+Brand/Customer Experience(CX)</li>
    <li style="color: black;">Innovation</li>
    </ul>
    </div>   
@@ -284,10 +284,7 @@
    <div class="about-info">
    <h2 style="text-align: center;">Communication Excellence</h2>
    <br/>
-   <h4 style="text-align: center;">We help you craft and refine your communication strategies into powerful,
-   impactful and authentic campaigns. We continuously review and re-strategize
-   along the way to ensure that your message aligns with your objectives and
-   resonates with your stakeholders.
+   <h4 style="text-align: center;">We help you craft and refine every business decision and communication into powerful, impactful and authentic campaigns. We continuously review and re-strategize along the way to ensure that your message aligns with your commercial objectives and resonates with your stakeholders.
    </h4>
    <br>
    <style>
@@ -333,17 +330,22 @@
    position: absolute;
    left: 0;
    }
+   @media (max-width: 767px) {
+      li {
+         padding-right: 0 !important; /* Remove padding for small screens */
+         padding-bottom: 5px !important; /* You can keep or remove this line based on your preference */
+      }
+   }
    </style>
      <div class="link_btn text-end collapse" id="readMoreContent3">
    <div class="link_btn6 text-end">
    <ul>
    <li style="color: #b2810b;" >•Advertising
    <ul>
-   <li style="color: black;">Brand Design</li>
-   <li style="color: black;">Visual Identity</li>
+   <li style="color: black;padding-right: 130px;">Brand Design</li>
+   <li style="color: black;padding-right: 130px;">Visual Identity</li>
    <li style="color: black;">Native Applications</li>
-   <li style="color: black;">Retail Environments</li>
-   <li style="color: black;">Packaging</li>
+   <li style="color: black;">Retail Environments Packaging</li>
    <li style="color: black;">Brand Storytelling</li>
    </ul>
    </li>
@@ -462,9 +464,7 @@
    <div class="about-info">
    <h2 style="text-align: center;">Social Impact</h2>
    <br/>
-   <h4 style="text-align: center;">We believe in the power of convergence of business acumen with social
-   responsibility. We work closely with you to craft strategies that enhance
-   your business success while positively impacting the society it operates in.
+   <h4 style="text-align: center;">We believe in the power of convergence of business acumen with social responsibility. We work closely with you to craft strategies that enhance your business success while impacting the society positively.
    </h4>
    <br>
    <div class="link_btn6 text-end">

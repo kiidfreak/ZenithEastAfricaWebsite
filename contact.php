@@ -208,9 +208,10 @@ label.error {
 
 <div class="content">
     
-    <div class="container">
-      <div class="row align-items-stretch no-gutters contact-wrap">
-        <div class="col-md-6">
+  <div class="container">
+    <div class=" align-items-stretch no-gutters contact-wrap justify-content-center"> <!-- Updated class added -->
+      <div class=" align-items-stretch no-gutters contact-wrap">
+        <div class="col-md-12">
           <div class="form h-100">
             <h3>Send us a message</h3>
             <form action="https://formsubmit.co/imaina671@gmail.com" class="mb-5" method="post" id="contactForm" name="contactForm">
@@ -228,7 +229,7 @@ label.error {
 
               <div class="row">
                 <div class="col-md-6 form-group mb-5">
-                  <label for="" class="col-form-label">Phone</label>
+                  <label for="" class="col-form-label">Phone *</label>
                   <input type="text" class="form-control" name="phone" id="phone"  placeholder="Phone No.">
                 </div>
                 <div class="col-md-6 form-group mb-5">
@@ -312,12 +313,13 @@ label.error {
 
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="contact-info h-100" style="background-image: url('img/blog/map.png')">
             <a href="https://maps.app.goo.gl/bmcCPphnab8V9zjC7" target="_blank"></a>
-          </div>
+          </div> -->
         </div>
       </div>
+    </div>
     </div>
 
   </div>

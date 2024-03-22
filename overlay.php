@@ -102,13 +102,13 @@
               <h2 class="mt-2" style="font-size: 25px;">Public authorities</h2>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-person-military-to-person"></i>
               <h2 class="mt-2" style="font-size: 25px;">Civil society actors</h2>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
           <div class="mb-4 d-flex flex-column align-items-center justify-content-center text-center">
               <i style="font-size: 60px;" class="fa-solid fa-business-time"></i>
               <h2 class="mt-2" style="font-size: 25px;">Social profit enterprises</h2>

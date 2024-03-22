@@ -177,7 +177,7 @@ a, button {
     position:fixed!important;
     top:0%!important;
     right: 0;
-	background:#fff!important;
+	background:#000!important;
     left: 0;
     z-index:999;
 	transition:0.10s ease;
@@ -550,9 +550,8 @@ a, button {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #9b7009;
+    color: #c9ac7d !important;
 }
-
 
 .navbar-nav .nav-item.active .nav-link {
     /* color: #fff; */
@@ -2084,7 +2083,7 @@ margin:5px 0px 0px 0px;
 
 
 .we-desc1 .we-title1{
-  font-size: 17px;
+  font-size: 25px;
   color: #fff;
   font-style: normal;
   letter-spacing: -.5px;

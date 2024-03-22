@@ -140,13 +140,13 @@
                   <nav class="navbar navbar-expand-lg my-navbar p-0">
                      <div style="display: flex; align-items: center;">
                         <a class="navbar-brand" href="index.php" style="margin-right: 10px;">
-                        <img src="img/Zenith4.png" class="img-fluid" alt="Your Alt Text Here"/>
+                        <img src="img/Zenith5.png" class="img-fluid" alt="Your Alt Text Here"/>
                         </a>
-                        <div style="font-family: 'Montserrat', sans-serif;">
-                           <p style="font-weight: 900; color: white; font-size: 30px; padding-top: 20px; line-height: 0; letter-spacing: 3px;text-align: center;">Zenith<br/></p>
-                           <p style="color: white; font-size: 13px; line-height: 1.5; letter-spacing: 0px;text-align: center;"> East Africa Limited<br/></p>
-                           <p style="color: white; font-size: 10px; line-height: 0; letter-spacing: 2px; text-align: end;font-weight: 600;">| Advisory Services</p>
-                        </div>
+                        <!-- <div style="font-family: 'Montserrat', sans-serif;">
+                           <p style="font-weight: 900; font-size: 30px; padding-top: 20px; line-height: 0; letter-spacing: 3px;text-align: center;color: #c9ac7d;">Zenith<br/></p>
+                           <p style="font-size: 13px; line-height: 1.5; letter-spacing: 0px;text-align: center;color: #c9ac7d;"> East Africa Limited<br/></p>
+                           <p style="font-size: 10px; line-height: 0; letter-spacing: 2px; text-align: end;font-weight: 600;color: #c9ac7d;">| Advisory Services</p>
+                        </div> -->
                      </div>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
@@ -156,19 +156,19 @@
                      <div class="collapse navbar-collapse mobile-nav" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto ">
                            <li id="nav-test" class="nav-item active" style="padding-right: 35px;">
-                              <a class="nav-link " href="index.php">Home</a>
+                              <a class="nav-link " href="index.php" style="color: #a7790a;">Home</a>
                            </li>
                            <!-- <li class="nav-item active">
                               <a style class="nav-link " href="about-us.php" role="button">About Us</a>
                            </li> -->
                            <li class="nav-item" style="padding-right: 35px;">
-                              <a class="nav-link" href="/contact.php">Get in Touch</a>
+                              <a class="nav-link" href="/contact.php" style="color: #a7790a;">Get in Touch</a>
                            </li>
                            
-                           <li class="nav-item" id="servicesDropdown" style="padding-right: 35px;">
-                              <a style="cursor: pointer;" class="nav-link " role="button">
+                           <li class="nav-item" id="servicesDropdown" style="padding-right: 35px;padding-top: 2px;">
+                              <a style="cursor: pointer;color: #a7790a;" class="nav-link " role="button">
                                  <!-- Replace "Other" text with a Font Awesome icon -->
-                                 <i class="fa-solid fa-bars"></i>
+                                 <i class="fa-solid fa-bars" style="font-size:25px" ></i>
                               </a>
                            </li>
                         </ul>
